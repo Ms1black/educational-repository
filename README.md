@@ -1,10 +1,10 @@
 # Учебный репозиторий
 
 ### Рабочие ветки:
-- Основы программной инженерии: 
-- Высокоуровневое программирование:
-- Ознакомительная практика: 
-- Объектно-ориентированное программирование:
+- Основы программной инженерии: https://github.com/Ms1black/educational-repository/tree/fundamentals-of-software-engineering
+- Высокоуровневое программирование: https://github.com/Ms1black/educational-repository/tree/high-level-programming
+- Ознакомительная практика: https://github.com/Ms1black/educational-repository/tree/introductory-practice
+- Объектно-ориентированное программирование: https://github.com/Ms1black/educational-repository/tree/object-oriented-programming
 
 ----
 
