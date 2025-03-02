@@ -42,19 +42,39 @@ int UserPrediction() {
 
 }
 
-int f3() {
-    std::cout << "function f3 is running...\n\n";
+int RainAnimation() {
+
+    int width_window = 20;
+    int drops_count = 10;
+    int duration_animation = 50;
+
+    for (int i = 0 ; i < duration_animation; i++){
+
+        system("clear");
+        std::string sky(width_window,' ');
+
+        for (int j = 0; j < drops_count; j++){
+
+            sky[rand() % width_window] = "|";
+
+        }
+
+        std::cout << sky << std::endl;
+        std::this_thread::sleep_for(std::chrono::milliseconds(100));
+
+    }
+
     return 3;
 }
+
 #pragma endregion
 
 const int ITEMS_NUMBER = 3;
 
 
 int main() {
-    CMenuItem items[ITEMS_NUMBER] {CMenuItem{"Приветствие", UserGreeting}, CMenuItem{"Предсказание", UserPrediction}, CMenuItem{"third item", f3}};
+    CMenuItem items[ITEMS_NUMBER] {CMenuItem{"Приветствие", UserGreeting}, CMenuItem{"Предсказание", UserPrediction}, CMenuItem{"Посмотреть на дождик", RainAnimation}};
     CMenu menu("My console menu", items, ITEMS_NUMBER);
     while (menu.runCommand()) {};
-
     return 0;
 }
