@@ -9,7 +9,7 @@
 
 int UserGreeting() {
 
-    string user_name;
+    std::string user_name;
 
     std::cout << "Введите своё имя:\n";
     std::cin >> user_name;
@@ -23,7 +23,7 @@ int UserPrediction() {
 
     srand(time(0));
 
-    string predictions[] = {
+    std::string predictions[] = {
 
         "Сегодня ты сделаешь что-то так классно, что все будут спрашивать: \"Как ты это сделал?\" Ты просто ответишь: \"Я же волшебник!",
         "У тебя не будет лишних 100 рублей, но будет 100 друзей и каждый из них подарит тебе по 100 рублей.", 
