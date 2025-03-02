@@ -3,6 +3,7 @@
 
 #include <ctime>
 #include <cstdlib>
+#include <thread>
 
 
 #pragma region функции-заглушки
@@ -11,10 +12,10 @@ int UserGreeting() {
 
     std::string user_name;
 
-    std::cout << "Введите своё имя:\n";
+    std::cout << "\nВведи своё имя:   ";
     std::cin >> user_name;
 
-    std::cout << "Привет, " << user_name << std::endl;
+    std::cout << "\nПривет, " << user_name << "\n\n\n"<< std::endl;
 
     return 1;
 }
@@ -37,7 +38,7 @@ int UserPrediction() {
 
     };
 
-    std::cout << "Ваше предсказание:\n" << predictions[rand() % 3] << std::endl;
+    std::cout << "\n Ваше предсказание:\n" << predictions[rand() % 3] << "\n\n\n" << std::endl;
     return 2;
 
 }
@@ -55,14 +56,16 @@ int RainAnimation() {
 
         for (int j = 0; j < drops_count; j++){
 
-            sky[rand() % width_window] = "|";
+            sky[rand() % width_window] = ':';
 
         }
 
         std::cout << sky << std::endl;
-        std::this_thread::sleep_for(std::chrono::milliseconds(100));
+        std::this_thread::sleep_for(std::chrono::milliseconds(500));
 
     }
+
+    
 
     return 3;
 }

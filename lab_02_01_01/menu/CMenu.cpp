@@ -33,8 +33,7 @@ void CMenu::print() {
 
 int CMenu::runCommand() {
     print();
-    system("clear");
-    std::cout << "\n   Выбор>> ";
+    std::cout << "\n   Выбор >> ";
     std::cin >> select;
     return (select > 0) ? items[select - 1].run() : 0;
 }
