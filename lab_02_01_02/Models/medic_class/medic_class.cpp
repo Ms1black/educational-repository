@@ -1,0 +1,1 @@
+#include "./medic_class.h"
