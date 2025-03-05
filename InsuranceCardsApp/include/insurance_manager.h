@@ -8,16 +8,29 @@ class InsuranceManager {
 private:
 
     InsuranceCard cards[100];
-    int count;
+    int card_count;
 
     void PrintLine() const;
     void PrintTableHeader() const;
 public: 
 
-    InsuranceManager() : count(0) {}
+    InsuranceManager() : card_count(0) {}
 
-    void addCard(const InsuranceManager& card);
     void displayAll() const;
+
+    void addCard() {
+
+        InsuranceCard card;
+
+        card.fillCard();
+
+        if (card_count < 100) {
+            cards[card_count] = card;
+            card_count++;
+        } else {
+            std::cout << "Максимальное количество карт достигнуто!" << std::endl;
+        }
+    }
 
 };
 

@@ -21,18 +21,25 @@ int main() {
         switch (choice) {
 
             case 1: {
+                
+                manager.addCard();
                 break;
             }
             case 2:
+
                 manager.displayAll();
                 break;
+
             case 3: {
                 break;
             }
             case 4:
+
                 manager.displayAll();
                 break;
+
             case 5:
+
                 std::cout << "Выход из программы...\n";
                 return 0;
             default:

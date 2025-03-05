@@ -29,7 +29,7 @@ void InsuranceManager::PrintTableHeader() const {
 
 void InsuranceManager::displayAll() const {
 
-    if (count == 0){
+    if (card_count == 0){
 
         std::cout << "Нет записей\n";
 
@@ -38,7 +38,7 @@ void InsuranceManager::displayAll() const {
 
     PrintTableHeader();
 
-    for (int i = 0; i < count; i++){
+    for (int i = 0; i < card_count; i++){
 
         cards[i].displayCard();
 
