@@ -12,7 +12,9 @@ private:
 
     void PrintLine() const;
     void PrintTableHeader() const;
+    
 public: 
+
 
     InsuranceManager() : card_count(0) {}
 
@@ -31,6 +33,10 @@ public:
             std::cout << "Максимальное количество карт достигнуто!" << std::endl;
         }
     }
+
+    void saveCardstoTxt();
+
+    void loadFromTxt();
 
 };
 

@@ -6,8 +6,6 @@ char* textalign(const char* word, Alignment align, int size) {
     int length = strlen(word);
     char* aligned = new char[size + 1];
 
-    // aligned[0] = '/0';
-
     switch (align) {
         
         case LEFT:
