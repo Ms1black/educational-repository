@@ -1,6 +1,7 @@
 #include <random>
 #include <algorithm>
 #include <iostream>
+#include <iomanip>
 
 const int SIZE_MATRIX = 14;
 
@@ -12,7 +13,7 @@ void iPrintMatrix(int matrix[SIZE_MATRIX][SIZE_MATRIX]){
     {
         for (j = 0; j < SIZE_MATRIX; j++) {
 
-            std::cout << matrix[i][j] << " ";
+            std::cout << std::setw(2)<< matrix[i][j] << " ";
         } std::cout << std::endl;
     }
 }
