@@ -1,17 +1,15 @@
-#include "Menu/menu_class.h"
-#include "Menu/menu_item_class.h"
+#include "Models/manager_class/manager.h"
 
-
-const int ITEMS_NUMBER = 1;
-
+#include <iostream>
 
 int main() {
-    CMenuItem items[ITEMS_NUMBER] {CMenuItem{"check user info", PrintUserInfo}};
-    CMenu menu("My console menu", items, ITEMS_NUMBER);
-    while (menu.runCommand()) {};
-    return 0;
+
+    MusicManager execution;
+    Track reack_id;
+    
+    execution.displayAllTracks();
+    execution.addTrack();
+    execution.displayAllTracks();
+
 }
-
-
-
 
