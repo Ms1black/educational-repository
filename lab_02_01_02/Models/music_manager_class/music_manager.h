@@ -1,43 +1,31 @@
-#ifndef MUSIC_MANAGER_H
-#define MUSIC_MANAGER_H
+    #ifndef MUSIC_MANAGER_H
+    #define MUSIC_MANAGER_H
 
-#include <iostream>
-#include <string>
-#include "../track_class/track.h"
+    #include <iostream>
+    #include <string>
+    #include "../track_class/track.h"
+    #include "../artist_class/artist.h"
 
-const int TRACKS_COUNT_MAX = 100;
+    const int TRACKS_COUNT_MAX = 100;
 
-class MusicManager {
+    class MusicManager {
 
-private:
+    private:
 
-        Track track_id[TRACKS_COUNT_MAX];
-        int tracks_count;
+            Track track_list[TRACKS_COUNT_MAX];
+            int tracks_count;
 
-    
+        
 
-    public: 
+        public: 
 
-    MusicManager() : tracks_count(0) {}
+        MusicManager();
 
-    void displayAllTracks();
+        void displayAllTracks();
+        void addTrack(const Track& track);
+        void removeTrack(int track_id);
 
-    void addTrack(){
-            
-        Track track;
-
-        track.fillInfoAboutTrack();
-
-        if (tracks_count < 100) {
-            track_id[tracks_count] = track;
-            tracks_count ++;
-        } else {
-            std:: cout << "Максимальное количество треков достигнуто!" << std::endl;
-        }
-
-    }
-
-};
+    };
 
 
-#endif
+    #endif
