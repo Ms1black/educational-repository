@@ -23,6 +23,8 @@ char* textalign(const char* word, Alignment align, int size) {
                 strcat(aligned, " ");
             }
 
+            strcat(aligned, word);
+
             for (int i = 0; i < (size - length) / 2 + (size - length) % 2; i++){
                 strcat(aligned, " ");
             }
