@@ -39,7 +39,7 @@ void testUploadAlbum(MusicManager& manager) {
     artist.uploadTrack(manager, "OVERLY", "Трэп", 3, 30, 16);
     artist.uploadTrack(manager, "SOUTH ATLANTA BABY", "Трэп", 3, 20, 16);
 
-    std::cout << "Тест загружены!" << std::endl;
+    std::cout << "\nТест успешно загружен!" << std::endl;
 
 }
 
