@@ -1,0 +1,9 @@
+/home/liza/Рабочий стол/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/untitled2.dir
+/home/liza/Рабочий стол/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/liza/Рабочий стол/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/liza/Рабочий стол/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/list_install_components.dir
+/home/liza/Рабочий стол/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/install.dir
+/home/liza/Рабочий стол/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/install/local.dir
+/home/liza/Рабочий стол/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/install/strip.dir
+/home/liza/Рабочий стол/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/untitled2_autogen_timestamp_deps.dir
+/home/liza/Рабочий стол/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/untitled2_autogen.dir
