@@ -10,10 +10,16 @@
 #include <QDateEdit>
 #include <QDate>
 #include <QRegularExpression>
+#include <QChartView>
+#include <QPieSeries>
+// Или просто:
+#include <QtCharts>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
+
+
 
 class MainWindow : public QMainWindow
 {
@@ -22,14 +28,16 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
-
+    void createPieChart();
 private slots:
     void on_loadButton_clicked();  
 private:
     Ui::MainWindow *ui;
+    QChartView *chartView = nullptr;
 
     void loadDataFromFile(const QString &fileName);  
-    QString formatPhoneNumber(const QString &phone);  
+    QString formatPhoneNumber(const QString &phone);
+
 };
 
 #endif 

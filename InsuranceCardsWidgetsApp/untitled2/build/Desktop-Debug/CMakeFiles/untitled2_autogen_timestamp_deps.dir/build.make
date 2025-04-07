@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/liza/Рабочий стол/educational-repository/InsuranceCardsWidgetsApp/untitled2"
+CMAKE_SOURCE_DIR = /home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/liza/Рабочий стол/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug"
+CMAKE_BINARY_DIR = /home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug
 
 # Utility rule file for untitled2_autogen_timestamp_deps.
 
@@ -66,10 +66,11 @@ include CMakeFiles/untitled2_autogen_timestamp_deps.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/untitled2_autogen_timestamp_deps.dir/progress.make
 
+CMakeFiles/untitled2_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Charts.so.6.4.2
+CMakeFiles/untitled2_autogen_timestamp_deps: /usr/lib/qt6/libexec/uic
+CMakeFiles/untitled2_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
 CMakeFiles/untitled2_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
 CMakeFiles/untitled2_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
-CMakeFiles/untitled2_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
-CMakeFiles/untitled2_autogen_timestamp_deps: /usr/lib/qt6/libexec/uic
 
 untitled2_autogen_timestamp_deps: CMakeFiles/untitled2_autogen_timestamp_deps
 untitled2_autogen_timestamp_deps: CMakeFiles/untitled2_autogen_timestamp_deps.dir/build.make
@@ -84,6 +85,6 @@ CMakeFiles/untitled2_autogen_timestamp_deps.dir/clean:
 .PHONY : CMakeFiles/untitled2_autogen_timestamp_deps.dir/clean
 
 CMakeFiles/untitled2_autogen_timestamp_deps.dir/depend:
-	cd "/home/liza/Рабочий стол/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/liza/Рабочий стол/educational-repository/InsuranceCardsWidgetsApp/untitled2" "/home/liza/Рабочий стол/educational-repository/InsuranceCardsWidgetsApp/untitled2" "/home/liza/Рабочий стол/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug" "/home/liza/Рабочий стол/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug" "/home/liza/Рабочий стол/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/untitled2_autogen_timestamp_deps.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd /home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2 /home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2 /home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug /home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug /home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/untitled2_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/untitled2_autogen_timestamp_deps.dir/depend
 

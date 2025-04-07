@@ -8,6 +8,9 @@
 #include <QMessageBox>
 #include <QTextStream>
 #include <QRegularExpression>
+#include <QRegularExpression>
+#include <QtCharts>
+
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -122,6 +125,7 @@ void MainWindow::loadDataFromFile(const QString &fileName)
     }
 
     file.close();
+    createPieChart();
 }
 
 QString MainWindow::formatPhoneNumber(const QString &phone)
@@ -141,6 +145,118 @@ QString MainWindow::formatPhoneNumber(const QString &phone)
     return phone;
 }
 
+void MainWindow::createPieChart()
+{
+    // Очистка предыдущей диаграммы
+    if (chartView) {
+        ui->chartWidget_->layout()->removeWidget(chartView);
+        delete chartView;
+        chartView = nullptr;
+    }
 
+    // Создание серии данных
+    auto *series = new QPieSeries();
 
+    // Собираем данные из таблицы (столбец 5 - "Вид Страховки")
+    QMap<QString, int> insuranceCounts;
+    for (int row = 0; row < ui->insuranceTable->rowCount(); ++row) {
+        if (auto *combo = qobject_cast<QComboBox*>(ui->insuranceTable->cellWidget(row, 5))) {
+            QString type = combo->currentText();
+            insuranceCounts[type]++;
+        }
+    }
 
+    // Добавляем данные в диаграмму
+    const QStringList insuranceTypes = {"Авто", "Здоровье", "Жизнь", "Иное"};
+    for (const QString &type : insuranceTypes) {
+        if (insuranceCounts.contains(type)) {
+            series->append(type, insuranceCounts[type]);
+        }
+    }
+
+    // Черно-белые цвета (сохраняем ваш стиль)
+    const QList<QColor> bwColors = {
+        QColor("#F0F0F0"),
+        QColor("#C0C0C0"),
+        QColor("#909090"),
+        QColor("#606060")
+    };
+
+    // Настройка сегментов
+    for (int i = 0; i < series->count(); ++i) {
+        QPieSlice* slice = series->slices().at(i);
+        slice->setBrush(bwColors[i % bwColors.size()]);
+        slice->setLabelVisible(true);
+        slice->setLabelFont(QFont("Arial", 10));
+        slice->setBorderColor(Qt::white);
+        slice->setBorderWidth(1);
+        slice->setLabel(QString("%1\n%2").arg(slice->label()).arg(slice->value()));
+    }
+
+    // Создание диаграммы (сохраняем ваш стиль)
+    QChart* chart = new QChart();
+    chart->addSeries(series);
+    chart->legend()->setVisible(false);
+    chart->setAnimationOptions(QChart::SeriesAnimations);
+    chart->setBackgroundVisible(false);
+    chart->setMargins(QMargins(10, 10, 10, 10));
+
+    // View (сохраняем ваш стиль)
+    chartView = new QChartView(chart);
+    chartView->setRenderHint(QPainter::Antialiasing);
+
+    // Рамка (сохраняем ваш стиль)
+    QFrame* chartFrame = new QFrame();
+    chartFrame->setStyleSheet(
+        "QFrame {"
+        "  border: 1px solid #E0E0E0;"
+        "  border-radius: 12px;"
+        "  background-color: white;"
+        "  padding: 10px;"
+        "}"
+        );
+
+    // Заголовок (сохраняем ваш стиль)
+    QLabel* chartTitle = new QLabel("Распределение видов страхования");
+    chartTitle->setStyleSheet(
+        "font-size: 16px;"
+        "font-weight: bold;"
+        "margin-bottom: 5px;"
+        "color: black;"
+        );
+    chartTitle->setAlignment(Qt::AlignCenter);
+
+    // Компоновка (сохраняем ваш стиль)
+    QVBoxLayout* chartLayout = new QVBoxLayout(chartFrame);
+    chartLayout->addWidget(chartTitle);
+    chartLayout->addWidget(chartView);
+
+    // Добавление в chartWidget_
+    if (!ui->chartWidget_->layout()) {
+        ui->chartWidget_->setLayout(new QVBoxLayout());
+    }
+    ui->chartWidget_->layout()->addWidget(chartFrame);
+
+    // Анимация при наведении (сохраняем ваш стиль)
+    for (auto *slice : series->slices()) {
+        QString originalLabel = slice->label();
+
+        connect(slice, &QPieSlice::hovered, [slice, originalLabel](bool hovered) {
+            slice->setExploded(hovered);
+            slice->setExplodeDistanceFactor(hovered ? 0.1 : 0.0);
+
+            QColor baseColor = slice->brush().color();
+            slice->setBrush(hovered ? baseColor.darker(110) : baseColor);
+
+            if (hovered) {
+                slice->setLabel(QString::number(slice->value()));
+                QFont bigFont("Arial", 25, QFont::Bold);
+                slice->setLabelFont(bigFont);
+            } else {
+                slice->setLabel(originalLabel);
+                QFont normalFont("Arial", 12);
+                slice->setLabelFont(normalFont);
+            }
+        });
+    }
+}

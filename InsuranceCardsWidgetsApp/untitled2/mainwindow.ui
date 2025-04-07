@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1395</width>
-    <height>747</height>
+    <width>1681</width>
+    <height>812</height>
    </rect>
   </property>
   <property name="palette">
@@ -561,13 +561,23 @@ QPushButton:pressed {
      <string>Открыть меню запросов</string>
     </property>
    </widget>
+   <widget class="QWidget" name="chartWidget&#10;" native="true">
+    <property name="geometry">
+     <rect>
+      <x>1370</x>
+      <y>150</y>
+      <width>461</width>
+      <height>451</height>
+     </rect>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1395</width>
+     <width>1681</width>
      <height>23</height>
     </rect>
    </property>

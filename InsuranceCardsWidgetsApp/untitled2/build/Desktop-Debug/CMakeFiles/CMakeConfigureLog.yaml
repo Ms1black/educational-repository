@@ -28,7 +28,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is Clang, found in:
-        /home/liza/Рабочий стол/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/3.28.3/CompilerIdCXX/a.out
+        /home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/3.28.3/CompilerIdCXX/a.out
       
   -
     kind: "try_compile-v1"
@@ -39,8 +39,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/liza/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-eL0KlE"
-      binary: "/home/liza/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-eL0KlE"
+      source: "/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-fz2lO7"
+      binary: "/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-fz2lO7"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-18"
       CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG"
@@ -49,13 +49,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/liza/Рабочий стол/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-eL0KlE'
+        Change Dir: '/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-fz2lO7'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1de3d/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_1de3d.dir/build.make CMakeFiles/cmTC_1de3d.dir/build
-        gmake[1]: Entering directory '/home/liza/Рабочий стол/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-eL0KlE'
-        Building CXX object CMakeFiles/cmTC_1de3d.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/clang++-18   -DQT_QML_DEBUG  -fcolor-diagnostics   -v -MD -MT CMakeFiles/cmTC_1de3d.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_1de3d.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_1de3d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b0463/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b0463.dir/build.make CMakeFiles/cmTC_b0463.dir/build
+        gmake[1]: Entering directory '/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-fz2lO7'
+        Building CXX object CMakeFiles/cmTC_b0463.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/clang++-18   -DQT_QML_DEBUG  -fcolor-diagnostics   -v -MD -MT CMakeFiles/cmTC_b0463.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_b0463.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_b0463.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
         Ubuntu clang version 18.1.3 (1ubuntu1)
         Target: x86_64-pc-linux-gnu
         Thread model: posix
@@ -65,7 +65,7 @@ events:
         Candidate multilib: .;@m64
         Selected multilib: .;@m64
          (in-process)
-         "/usr/lib/llvm-18/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb "-fdebug-compilation-dir=/home/liza/Рабочий стол/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-eL0KlE" -v "-fcoverage-compilation-dir=/home/liza/Рабочий стол/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-eL0KlE" -resource-dir /usr/lib/llvm-18/lib/clang/18 -dependency-file CMakeFiles/cmTC_1de3d.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_1de3d.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D QT_QML_DEBUG -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/backward -internal-isystem /usr/lib/llvm-18/lib/clang/18/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fcolor-diagnostics -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_1de3d.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+         "/usr/lib/llvm-18/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-fz2lO7 -v -fcoverage-compilation-dir=/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-fz2lO7 -resource-dir /usr/lib/llvm-18/lib/clang/18 -dependency-file CMakeFiles/cmTC_b0463.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_b0463.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D QT_QML_DEBUG -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/backward -internal-isystem /usr/lib/llvm-18/lib/clang/18/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fcolor-diagnostics -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_b0463.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
         clang -cc1 version 18.1.3 based upon LLVM 18.1.3 default target x86_64-pc-linux-gnu
         ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"
         ignoring nonexistent directory "/include"
@@ -79,9 +79,9 @@ events:
          /usr/include/x86_64-linux-gnu
          /usr/include
         End of search list.
-        Linking CXX executable cmTC_1de3d
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1de3d.dir/link.txt --verbose=1
-        /usr/bin/clang++-18 -DQT_QML_DEBUG   -v CMakeFiles/cmTC_1de3d.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_1de3d 
+        Linking CXX executable cmTC_b0463
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0463.dir/link.txt --verbose=1
+        /usr/bin/clang++-18 -DQT_QML_DEBUG   -v CMakeFiles/cmTC_b0463.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b0463 
         Ubuntu clang version 18.1.3 (1ubuntu1)
         Target: x86_64-pc-linux-gnu
         Thread model: posix
@@ -90,8 +90,8 @@ events:
         Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/13
         Candidate multilib: .;@m64
         Selected multilib: .;@m64
-         "/usr/bin/ld" -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_1de3d /lib/x86_64-linux-gnu/Scrt1.o /lib/x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/13 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/lib -L/usr/lib CMakeFiles/cmTC_1de3d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/13/crtendS.o /lib/x86_64-linux-gnu/crtn.o
-        gmake[1]: Leaving directory '/home/liza/Рабочий стол/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-eL0KlE'
+         "/usr/bin/ld" -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_b0463 /lib/x86_64-linux-gnu/Scrt1.o /lib/x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/13 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/lib -L/usr/lib CMakeFiles/cmTC_b0463.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/13/crtendS.o /lib/x86_64-linux-gnu/crtn.o
+        gmake[1]: Leaving directory '/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-fz2lO7'
         
       exitCode: 0
   -
@@ -131,13 +131,13 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/liza/Рабочий стол/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-eL0KlE']
+        ignore line: [Change Dir: '/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-fz2lO7']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1de3d/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_1de3d.dir/build.make CMakeFiles/cmTC_1de3d.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/liza/Рабочий стол/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-eL0KlE']
-        ignore line: [Building CXX object CMakeFiles/cmTC_1de3d.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/clang++-18   -DQT_QML_DEBUG  -fcolor-diagnostics   -v -MD -MT CMakeFiles/cmTC_1de3d.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_1de3d.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_1de3d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b0463/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_b0463.dir/build.make CMakeFiles/cmTC_b0463.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-fz2lO7']
+        ignore line: [Building CXX object CMakeFiles/cmTC_b0463.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/clang++-18   -DQT_QML_DEBUG  -fcolor-diagnostics   -v -MD -MT CMakeFiles/cmTC_b0463.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_b0463.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_b0463.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Ubuntu clang version 18.1.3 (1ubuntu1)]
         ignore line: [Target: x86_64-pc-linux-gnu]
         ignore line: [Thread model: posix]
@@ -149,7 +149,7 @@ events:
         ignore line: [Selected multilib: .]
         ignore line: [@m64]
         ignore line: [ (in-process)]
-        ignore line: [ "/usr/lib/llvm-18/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb "-fdebug-compilation-dir=/home/liza/Рабочий стол/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-eL0KlE" -v "-fcoverage-compilation-dir=/home/liza/Рабочий стол/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-eL0KlE" -resource-dir /usr/lib/llvm-18/lib/clang/18 -dependency-file CMakeFiles/cmTC_1de3d.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_1de3d.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D QT_QML_DEBUG -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/backward -internal-isystem /usr/lib/llvm-18/lib/clang/18/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fcolor-diagnostics -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_1de3d.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "/usr/lib/llvm-18/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-fz2lO7 -v -fcoverage-compilation-dir=/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-fz2lO7 -resource-dir /usr/lib/llvm-18/lib/clang/18 -dependency-file CMakeFiles/cmTC_b0463.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_b0463.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D QT_QML_DEBUG -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/backward -internal-isystem /usr/lib/llvm-18/lib/clang/18/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fcolor-diagnostics -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_b0463.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang -cc1 version 18.1.3 based upon LLVM 18.1.3 default target x86_64-pc-linux-gnu]
         ignore line: [ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"]
         ignore line: [ignoring nonexistent directory "/include"]
@@ -163,9 +163,9 @@ events:
         ignore line: [ /usr/include/x86_64-linux-gnu]
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
-        ignore line: [Linking CXX executable cmTC_1de3d]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1de3d.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/clang++-18 -DQT_QML_DEBUG   -v CMakeFiles/cmTC_1de3d.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_1de3d ]
+        ignore line: [Linking CXX executable cmTC_b0463]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0463.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/clang++-18 -DQT_QML_DEBUG   -v CMakeFiles/cmTC_b0463.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b0463 ]
         ignore line: [Ubuntu clang version 18.1.3 (1ubuntu1)]
         ignore line: [Target: x86_64-pc-linux-gnu]
         ignore line: [Thread model: posix]
@@ -176,7 +176,7 @@ events:
         ignore line: [@m64]
         ignore line: [Selected multilib: .]
         ignore line: [@m64]
-        link line: [ "/usr/bin/ld" -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_1de3d /lib/x86_64-linux-gnu/Scrt1.o /lib/x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/13 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/lib -L/usr/lib CMakeFiles/cmTC_1de3d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/13/crtendS.o /lib/x86_64-linux-gnu/crtn.o]
+        link line: [ "/usr/bin/ld" -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_b0463 /lib/x86_64-linux-gnu/Scrt1.o /lib/x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/13 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/lib -L/usr/lib CMakeFiles/cmTC_b0463.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/13/crtendS.o /lib/x86_64-linux-gnu/crtn.o]
           arg [/usr/bin/ld] ==> ignore
           arg [-zrelro] ==> ignore
           arg [--hash-style=gnu] ==> ignore
@@ -188,7 +188,7 @@ events:
           arg [-dynamic-linker] ==> ignore
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_1de3d] ==> ignore
+          arg [cmTC_b0463] ==> ignore
           arg [/lib/x86_64-linux-gnu/Scrt1.o] ==> obj [/lib/x86_64-linux-gnu/Scrt1.o]
           arg [/lib/x86_64-linux-gnu/crti.o] ==> obj [/lib/x86_64-linux-gnu/crti.o]
           arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/13/crtbeginS.o] ==> obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/13/crtbeginS.o]
@@ -200,7 +200,7 @@ events:
           arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
-          arg [CMakeFiles/cmTC_1de3d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_b0463.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -241,8 +241,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/home/liza/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-BCjQTx"
-      binary: "/home/liza/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-BCjQTx"
+      source: "/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-URabRe"
+      binary: "/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-URabRe"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-18"
       CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG"
@@ -253,17 +253,17 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/home/liza/Рабочий стол/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-BCjQTx'
+        Change Dir: '/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-URabRe'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_58940/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_58940.dir/build.make CMakeFiles/cmTC_58940.dir/build
-        gmake[1]: вход в каталог «/home/liza/Рабочий стол/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-BCjQTx»
-        Building CXX object CMakeFiles/cmTC_58940.dir/src.cxx.o
-        /usr/bin/clang++-18 -DCMAKE_HAVE_LIBC_PTHREAD  -DQT_QML_DEBUG  -std=gnu++17 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_58940.dir/src.cxx.o -MF CMakeFiles/cmTC_58940.dir/src.cxx.o.d -o CMakeFiles/cmTC_58940.dir/src.cxx.o -c "/home/liza/Рабочий стол/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-BCjQTx/src.cxx"
-        Linking CXX executable cmTC_58940
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58940.dir/link.txt --verbose=1
-        /usr/bin/clang++-18 -DQT_QML_DEBUG  CMakeFiles/cmTC_58940.dir/src.cxx.o -o cmTC_58940 
-        gmake[1]: выход из каталога «/home/liza/Рабочий стол/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-BCjQTx»
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3f124/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_3f124.dir/build.make CMakeFiles/cmTC_3f124.dir/build
+        gmake[1]: вход в каталог «/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-URabRe»
+        Building CXX object CMakeFiles/cmTC_3f124.dir/src.cxx.o
+        /usr/bin/clang++-18 -DCMAKE_HAVE_LIBC_PTHREAD  -DQT_QML_DEBUG  -std=gnu++17 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_3f124.dir/src.cxx.o -MF CMakeFiles/cmTC_3f124.dir/src.cxx.o.d -o CMakeFiles/cmTC_3f124.dir/src.cxx.o -c /home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-URabRe/src.cxx
+        Linking CXX executable cmTC_3f124
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f124.dir/link.txt --verbose=1
+        /usr/bin/clang++-18 -DQT_QML_DEBUG  CMakeFiles/cmTC_3f124.dir/src.cxx.o -o cmTC_3f124 
+        gmake[1]: выход из каталога «/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-URabRe»
         
       exitCode: 0
   -
@@ -285,8 +285,8 @@ events:
     checks:
       - "Performing Test HAVE_STDATOMIC"
     directories:
-      source: "/home/liza/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-c1zBn1"
-      binary: "/home/liza/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-c1zBn1"
+      source: "/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-X4lp0l"
+      binary: "/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-X4lp0l"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-18"
       CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG"
@@ -297,17 +297,17 @@ events:
       variable: "HAVE_STDATOMIC"
       cached: true
       stdout: |
-        Change Dir: '/home/liza/Рабочий стол/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-c1zBn1'
+        Change Dir: '/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-X4lp0l'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ed8ce/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_ed8ce.dir/build.make CMakeFiles/cmTC_ed8ce.dir/build
-        gmake[1]: вход в каталог «/home/liza/Рабочий стол/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-c1zBn1»
-        Building CXX object CMakeFiles/cmTC_ed8ce.dir/src.cxx.o
-        /usr/bin/clang++-18 -DHAVE_STDATOMIC  -DQT_QML_DEBUG  -std=gnu++17 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_ed8ce.dir/src.cxx.o -MF CMakeFiles/cmTC_ed8ce.dir/src.cxx.o.d -o CMakeFiles/cmTC_ed8ce.dir/src.cxx.o -c "/home/liza/Рабочий стол/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-c1zBn1/src.cxx"
-        Linking CXX executable cmTC_ed8ce
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed8ce.dir/link.txt --verbose=1
-        /usr/bin/clang++-18 -DQT_QML_DEBUG  CMakeFiles/cmTC_ed8ce.dir/src.cxx.o -o cmTC_ed8ce 
-        gmake[1]: выход из каталога «/home/liza/Рабочий стол/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-c1zBn1»
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_cd8a5/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_cd8a5.dir/build.make CMakeFiles/cmTC_cd8a5.dir/build
+        gmake[1]: вход в каталог «/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-X4lp0l»
+        Building CXX object CMakeFiles/cmTC_cd8a5.dir/src.cxx.o
+        /usr/bin/clang++-18 -DHAVE_STDATOMIC  -DQT_QML_DEBUG  -std=gnu++17 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_cd8a5.dir/src.cxx.o -MF CMakeFiles/cmTC_cd8a5.dir/src.cxx.o.d -o CMakeFiles/cmTC_cd8a5.dir/src.cxx.o -c /home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-X4lp0l/src.cxx
+        Linking CXX executable cmTC_cd8a5
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd8a5.dir/link.txt --verbose=1
+        /usr/bin/clang++-18 -DQT_QML_DEBUG  CMakeFiles/cmTC_cd8a5.dir/src.cxx.o -o cmTC_cd8a5 
+        gmake[1]: выход из каталога «/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-X4lp0l»
         
       exitCode: 0
 ...
