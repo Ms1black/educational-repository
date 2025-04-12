@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/untitled2_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/untitled2_autogen.dir/ParseCache.txt"
   "untitled2_autogen"
+  "CMakeFiles/untitled2.dir/ChartDialog.cpp.o"
+  "CMakeFiles/untitled2.dir/ChartDialog.cpp.o.d"
   "CMakeFiles/untitled2.dir/main.cpp.o"
   "CMakeFiles/untitled2.dir/main.cpp.o.d"
   "CMakeFiles/untitled2.dir/mainwindow.cpp.o"

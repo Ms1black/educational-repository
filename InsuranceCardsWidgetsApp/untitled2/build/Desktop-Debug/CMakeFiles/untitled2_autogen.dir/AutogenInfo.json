@@ -237,6 +237,12 @@
 	"HEADERS" : 
 	[
 		[
+			"/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/ChartDialog.h",
+			"MU",
+			"EWIEGA46WW/moc_ChartDialog.cpp",
+			null
+		],
+		[
 			"/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -312,6 +318,11 @@
 	"SETTINGS_FILE" : "/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/untitled2_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/ChartDialog.cpp",
+			"MU",
+			null
+		],
 		[
 			"/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/main.cpp",
 			"MU",

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1681</width>
-    <height>812</height>
+    <width>1965</width>
+    <height>839</height>
    </rect>
   </property>
   <property name="palette">
@@ -571,13 +571,26 @@ QPushButton:pressed {
      </rect>
     </property>
    </widget>
+   <widget class="QPushButton" name="openChartButton">
+    <property name="geometry">
+     <rect>
+      <x>1480</x>
+      <y>670</y>
+      <width>88</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1681</width>
+     <width>1965</width>
      <height>23</height>
     </rect>
    </property>

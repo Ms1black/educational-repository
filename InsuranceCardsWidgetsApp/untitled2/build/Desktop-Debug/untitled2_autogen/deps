@@ -1,5 +1,7 @@
 untitled2_autogen/timestamp: \
 	/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/CMakeLists.txt \
+	/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/ChartDialog.cpp \
+	/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/ChartDialog.h \
 	/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/.qtc/package-manager/auto-setup.cmake \
 	/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
 	/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/3.28.3/CMakeSystem.cmake \
@@ -797,6 +799,7 @@ untitled2_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QComboBox \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QCommonStyle \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QDateEdit \
+	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QDialog \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QFileDialog \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsView \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsWidget \
@@ -1191,5 +1194,6 @@ untitled2_autogen/timestamp: \
 	/usr/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake \
 	/usr/share/cmake-3.28/Modules/Platform/Linux.cmake \
 	/usr/share/cmake-3.28/Modules/Platform/UnixPaths.cmake \
+	/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/ChartDialog.ui \
 	/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/mainwindow.ui \
 	/usr/bin/cmake

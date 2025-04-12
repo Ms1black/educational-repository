@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "untitled2_autogen/timestamp" "custom" "untitled2_autogen/deps"
+  "/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/ChartDialog.cpp" "CMakeFiles/untitled2.dir/ChartDialog.cpp.o" "gcc" "CMakeFiles/untitled2.dir/ChartDialog.cpp.o.d"
   "/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/main.cpp" "CMakeFiles/untitled2.dir/main.cpp.o" "gcc" "CMakeFiles/untitled2.dir/main.cpp.o.d"
   "/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/mainwindow.cpp" "CMakeFiles/untitled2.dir/mainwindow.cpp.o" "gcc" "CMakeFiles/untitled2.dir/mainwindow.cpp.o.d"
   "/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/untitled2_autogen/mocs_compilation.cpp" "CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.o.d"

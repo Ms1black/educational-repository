@@ -10,6 +10,7 @@
 #include <QRegularExpression>
 #include <QRegularExpression>
 #include <QtCharts>
+#include "ChartDialog.h"
 
 
 MainWindow::MainWindow(QWidget *parent)
@@ -17,6 +18,8 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    connect(ui->openChartButton, &QPushButton::clicked, this, &MainWindow::on_openChartsButton_clicked);
+
 
     
     connect(ui->loadButton, &QPushButton::clicked, this, &MainWindow::on_loadButton_clicked);
@@ -147,17 +150,14 @@ QString MainWindow::formatPhoneNumber(const QString &phone)
 
 void MainWindow::createPieChart()
 {
-    // Очистка предыдущей диаграммы
     if (chartView) {
         ui->chartWidget_->layout()->removeWidget(chartView);
         delete chartView;
         chartView = nullptr;
     }
 
-    // Создание серии данных
     auto *series = new QPieSeries();
 
-    // Собираем данные из таблицы (столбец 5 - "Вид Страховки")
     QMap<QString, int> insuranceCounts;
     for (int row = 0; row < ui->insuranceTable->rowCount(); ++row) {
         if (auto *combo = qobject_cast<QComboBox*>(ui->insuranceTable->cellWidget(row, 5))) {
@@ -166,7 +166,6 @@ void MainWindow::createPieChart()
         }
     }
 
-    // Добавляем данные в диаграмму
     const QStringList insuranceTypes = {"Авто", "Здоровье", "Жизнь", "Иное"};
     for (const QString &type : insuranceTypes) {
         if (insuranceCounts.contains(type)) {
@@ -174,7 +173,6 @@ void MainWindow::createPieChart()
         }
     }
 
-    // Черно-белые цвета (сохраняем ваш стиль)
     const QList<QColor> bwColors = {
         QColor("#F0F0F0"),
         QColor("#C0C0C0"),
@@ -182,7 +180,6 @@ void MainWindow::createPieChart()
         QColor("#606060")
     };
 
-    // Настройка сегментов
     for (int i = 0; i < series->count(); ++i) {
         QPieSlice* slice = series->slices().at(i);
         slice->setBrush(bwColors[i % bwColors.size()]);
@@ -193,7 +190,6 @@ void MainWindow::createPieChart()
         slice->setLabel(QString("%1\n%2").arg(slice->label()).arg(slice->value()));
     }
 
-    // Создание диаграммы (сохраняем ваш стиль)
     QChart* chart = new QChart();
     chart->addSeries(series);
     chart->legend()->setVisible(false);
@@ -201,11 +197,9 @@ void MainWindow::createPieChart()
     chart->setBackgroundVisible(false);
     chart->setMargins(QMargins(10, 10, 10, 10));
 
-    // View (сохраняем ваш стиль)
     chartView = new QChartView(chart);
     chartView->setRenderHint(QPainter::Antialiasing);
 
-    // Рамка (сохраняем ваш стиль)
     QFrame* chartFrame = new QFrame();
     chartFrame->setStyleSheet(
         "QFrame {"
@@ -216,7 +210,6 @@ void MainWindow::createPieChart()
         "}"
         );
 
-    // Заголовок (сохраняем ваш стиль)
     QLabel* chartTitle = new QLabel("Распределение видов страхования");
     chartTitle->setStyleSheet(
         "font-size: 16px;"
@@ -226,18 +219,15 @@ void MainWindow::createPieChart()
         );
     chartTitle->setAlignment(Qt::AlignCenter);
 
-    // Компоновка (сохраняем ваш стиль)
     QVBoxLayout* chartLayout = new QVBoxLayout(chartFrame);
     chartLayout->addWidget(chartTitle);
     chartLayout->addWidget(chartView);
 
-    // Добавление в chartWidget_
     if (!ui->chartWidget_->layout()) {
         ui->chartWidget_->setLayout(new QVBoxLayout());
     }
     ui->chartWidget_->layout()->addWidget(chartFrame);
 
-    // Анимация при наведении (сохраняем ваш стиль)
     for (auto *slice : series->slices()) {
         QString originalLabel = slice->label();
 
@@ -260,3 +250,38 @@ void MainWindow::createPieChart()
         });
     }
 }
+
+
+void MainWindow::on_openChartsButton_clicked()
+{
+    QMap<QString, double> agentSums;  
+    QMap<QString, int> monthCounts;   
+
+
+    for (int row = 0; row < ui->insuranceTable->rowCount(); ++row) {
+
+        if (auto *agentItem = ui->insuranceTable->item(row, 1)) {
+            QString agent = agentItem->text();  
+
+            if (auto *amountItem = ui->insuranceTable->item(row, 2)) {
+                double amount = amountItem->text().toDouble();  
+
+                if (auto *monthItem = ui->insuranceTable->item(row, 3)) {
+                    QString month = monthItem->text(); 
+
+                    agentSums[agent] += amount;
+                    monthCounts[month] += 1;
+                }
+            }
+        }
+    }
+
+    ChartDialog *dialog = new ChartDialog(this);
+    dialog->setAgentData(agentSums);
+    dialog->setMonthData(monthCounts); 
+    dialog->exec();
+}
+
+
+
+

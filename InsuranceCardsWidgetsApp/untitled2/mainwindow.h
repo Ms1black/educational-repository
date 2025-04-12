@@ -14,6 +14,7 @@
 #include <QPieSeries>
 // Или просто:
 #include <QtCharts>
+#include "ChartDialog.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -30,12 +31,13 @@ public:
     ~MainWindow();
     void createPieChart();
 private slots:
-    void on_loadButton_clicked();  
+    void on_loadButton_clicked();
+    void on_openChartsButton_clicked();
 private:
     Ui::MainWindow *ui;
     QChartView *chartView = nullptr;
 
-    void loadDataFromFile(const QString &fileName);  
+    void loadDataFromFile(const QString &fileName);
     QString formatPhoneNumber(const QString &phone);
 
 };

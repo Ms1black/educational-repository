@@ -1,5 +1,6 @@
 /home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/untitled2_autogen/EWIEGA46WW/moc_mainwindow.cpp: /home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/mainwindow.h \
   /home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/untitled2_autogen/moc_predefs.h \
+  /home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/ChartDialog.h \
   /usr/include/GL/gl.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
@@ -790,6 +791,7 @@
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QComboBox \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QCommonStyle \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QDateEdit \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QDialog \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QFileDialog \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsView \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsWidget \

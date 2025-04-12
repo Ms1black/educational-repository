@@ -1034,4 +1034,6 @@ CMakeFiles/untitled2.dir/main.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qvxymodelmapper.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qxylegendmarker.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qtchartsversion.h \
+  /home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/ChartDialog.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QDialog \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QApplication
