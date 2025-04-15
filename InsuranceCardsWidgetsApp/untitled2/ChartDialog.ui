@@ -6,22 +6,23 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>804</width>
-    <height>526</height>
+    <width>960</width>
+    <height>631</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <widget class="QTableWidget" name="tableWidget">
+  <widget class="QWidget" name="horizontalLayoutWidget">
    <property name="geometry">
     <rect>
-     <x>300</x>
-     <y>140</y>
-     <width>256</width>
-     <height>192</height>
+     <x>0</x>
+     <y>0</y>
+     <width>951</width>
+     <height>621</height>
     </rect>
    </property>
+   <layout class="QHBoxLayout" name="horizontalLayout"/>
   </widget>
  </widget>
  <resources/>

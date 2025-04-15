@@ -3,11 +3,10 @@
 
 #include <QDialog>
 #include <QtCharts>
-#include <QMap>
 
-namespace Ui {
-class ChartDialog;
-}
+QT_BEGIN_NAMESPACE
+namespace Ui { class ChartDialog; }
+QT_END_NAMESPACE
 
 class ChartDialog : public QDialog
 {
@@ -15,16 +14,12 @@ class ChartDialog : public QDialog
 
 public:
     explicit ChartDialog(QWidget *parent = nullptr);
-    ~ChartDialog();
-
-    void setAgentData(const QMap<QString, double> &agentSums);  
-    void setMonthData(const QMap<QString, int> &monthCounts);    
+    void setData(const QMap<QString, double> &agentSums,
+                 const QMap<QString, int> &monthCounts);
 
 private:
-    Ui::ChartDialog *ui;
-
-    void createLineChart(const QMap<QString, double> &agentSums);  
-    void createBarChart(const QMap<QString, int> &monthCounts);    
+    QChartView *agentChartView;
+    QChartView *monthChartView;
 };
 
 #endif // CHARTDIALOG_H

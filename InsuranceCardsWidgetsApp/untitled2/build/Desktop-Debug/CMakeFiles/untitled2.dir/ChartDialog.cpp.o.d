@@ -1024,8 +1024,4 @@ CMakeFiles/untitled2.dir/ChartDialog.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qvpiemodelmapper.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qvxymodelmapper.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qxylegendmarker.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qtchartsversion.h \
-  /home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/untitled2_autogen/include/ui_ChartDialog.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QApplication \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QHeaderView \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QTableWidget
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qtchartsversion.h
