@@ -451,6 +451,11 @@ CMakeFiles/untitled2.dir/mainwindow.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qpieseries.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/QPieSlice \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qpieslice.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QLineSeries \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qlineseries.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QXYSeries \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qxyseries.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/QImage \
   /home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/untitled2_autogen/include/./ui_mainwindow.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QApplication \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qapplication.h \
@@ -974,7 +979,6 @@ CMakeFiles/untitled2.dir/mainwindow.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/qopenglvertexarrayobject.h \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/qopenglwindow.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/QOpenGLContext \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/QImage \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/qtopenglversion.h \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGLWidgets/QtOpenGLWidgets \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGLWidgets/QtOpenGLWidgetsDepends \
@@ -1026,9 +1030,6 @@ CMakeFiles/untitled2.dir/mainwindow.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qhxymodelmapper.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/QXYModelMapper \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qxymodelmapper.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qlineseries.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QXYSeries \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qxyseries.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qlogvalueaxis.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qpercentbarseries.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qpielegendmarker.h \

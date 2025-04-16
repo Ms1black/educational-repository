@@ -332,6 +332,7 @@ untitled2_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/qt6/QtCharts/QChartView \
 	/usr/include/x86_64-linux-gnu/qt6/QtCharts/QLegend \
 	/usr/include/x86_64-linux-gnu/qt6/QtCharts/QLegendMarker \
+	/usr/include/x86_64-linux-gnu/qt6/QtCharts/QLineSeries \
 	/usr/include/x86_64-linux-gnu/qt6/QtCharts/QPieModelMapper \
 	/usr/include/x86_64-linux-gnu/qt6/QtCharts/QPieSeries \
 	/usr/include/x86_64-linux-gnu/qt6/QtCharts/QPieSlice \

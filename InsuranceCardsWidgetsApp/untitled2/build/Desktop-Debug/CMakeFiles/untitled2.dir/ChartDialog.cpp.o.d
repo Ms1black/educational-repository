@@ -1024,4 +1024,6 @@ CMakeFiles/untitled2.dir/ChartDialog.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qvpiemodelmapper.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qvxymodelmapper.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qxylegendmarker.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qtchartsversion.h
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qtchartsversion.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QChartView \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QLineSeries

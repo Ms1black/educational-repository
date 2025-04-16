@@ -9,6 +9,8 @@
 #include <QRegularExpression>
 #include <QtCharts>
 #include "ChartDialog.h"
+#include <QtCharts/QChartView>
+#include <QtCharts/QLineSeries>
 
 
 MainWindow::MainWindow(QWidget *parent)
@@ -355,13 +357,6 @@ void MainWindow::handleCellChanged(int row, int column)
     }
 }
 
-
-
-
-
-
-
-
 void MainWindow::on_addButton_clicked()
 {
     QDialog dialog(this);
@@ -408,7 +403,7 @@ void MainWindow::on_addButton_clicked()
 
         QStringList fields;
         fields << insuredFioEdit->text().split(" ") << agentFioEdit->text().split(" ");
-        while (fields.size() < 6) fields << ""; // Заполняем пустыми значениями, если ФИО неполные
+        while (fields.size() < 6) fields << "";
 
         fields << amountEdit->text()
                << startDateEdit->date().toString("yyyy-MM-dd")

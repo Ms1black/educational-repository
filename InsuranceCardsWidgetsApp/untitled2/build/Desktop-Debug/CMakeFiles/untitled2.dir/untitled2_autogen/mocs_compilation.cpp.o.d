@@ -1026,11 +1026,12 @@ CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qvxymodelmapper.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qxylegendmarker.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qtchartsversion.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QChartView \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QLineSeries \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/QScreen \
   /home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/untitled2_autogen/EWIEGA46WW/moc_mainwindow.cpp \
   /home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/untitled2_autogen/EWIEGA46WW/../../../../mainwindow.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMainWindow \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QSet \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QDate \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/QColor \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QChartView
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/QColor

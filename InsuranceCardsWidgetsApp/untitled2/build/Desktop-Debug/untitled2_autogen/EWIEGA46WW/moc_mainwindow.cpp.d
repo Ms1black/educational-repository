@@ -289,18 +289,22 @@
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/QChartGlobal \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/QChartView \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/QLegend \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QLineSeries \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/QPieSeries \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/QPieSlice \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QXYSeries \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qabstractaxis.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qabstractseries.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qchart.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qchartglobal.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qchartview.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qlegend.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qlineseries.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qpieseries.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qpieslice.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qtcharts-config.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qtchartsexports.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qxyseries.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QDate \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QList \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QMap \
@@ -404,6 +408,7 @@
   /usr/include/x86_64-linux-gnu/qt6/QtGui/QBrush \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/QColor \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/QFont \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/QImage \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/QPen \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/QTransform \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qaction.h \

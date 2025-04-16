@@ -320,8 +320,10 @@
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/QCandlestickSeries \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/QChart \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/QChartGlobal \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QChartView \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/QLegend \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/QLegendMarker \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QLineSeries \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/QPieModelMapper \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/QPieSeries \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/QPieSlice \
