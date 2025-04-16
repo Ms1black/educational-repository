@@ -7,10 +7,9 @@
 #include <QStringList>
 #include <QDate>
 #include <QColor>
-#include <QChartView>
 #include <QPieSeries>
-#include <QtCharts/QChartView>
-#include <QtCharts/QLineSeries>
+#include <QtCharts>
+
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }

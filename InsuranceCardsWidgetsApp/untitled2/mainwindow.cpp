@@ -9,8 +9,7 @@
 #include <QRegularExpression>
 #include <QtCharts>
 #include "ChartDialog.h"
-#include <QtCharts/QChartView>
-#include <QtCharts/QLineSeries>
+
 
 
 MainWindow::MainWindow(QWidget *parent)
@@ -23,6 +22,8 @@ MainWindow::MainWindow(QWidget *parent)
     initializeTable();
     setupConnections();
     setupStyles();
+
+     QChartView *chartView = new QChartView(this);
 }
 
 MainWindow::~MainWindow()

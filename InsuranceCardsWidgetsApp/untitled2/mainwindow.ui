@@ -374,7 +374,7 @@ QTableWidget:focus {
    <widget class="QPushButton" name="loadButton">
     <property name="geometry">
      <rect>
-      <x>50</x>
+      <x>120</x>
       <y>40</y>
       <width>151</width>
       <height>41</height>
@@ -384,6 +384,7 @@ QTableWidget:focus {
      <font>
       <family>Yandex Sans Text</family>
       <pointsize>12</pointsize>
+      <weight>50</weight>
       <italic>false</italic>
       <bold>false</bold>
      </font>
@@ -412,7 +413,7 @@ QPushButton:pressed {
    <widget class="QPushButton" name="exportButton">
     <property name="geometry">
      <rect>
-      <x>220</x>
+      <x>290</x>
       <y>40</y>
       <width>151</width>
       <height>41</height>
@@ -422,6 +423,7 @@ QPushButton:pressed {
      <font>
       <family>Yandex Sans Text</family>
       <pointsize>12</pointsize>
+      <weight>50</weight>
       <italic>false</italic>
       <bold>false</bold>
      </font>
@@ -460,6 +462,7 @@ QPushButton:pressed {
      <font>
       <family>Yandex Sans Text</family>
       <pointsize>12</pointsize>
+      <weight>50</weight>
       <italic>false</italic>
       <bold>false</bold>
      </font>
@@ -498,6 +501,7 @@ QPushButton:pressed {
      <font>
       <family>Yandex Sans Text</family>
       <pointsize>12</pointsize>
+      <weight>50</weight>
       <italic>false</italic>
       <bold>false</bold>
      </font>
@@ -536,6 +540,7 @@ QPushButton:pressed {
      <font>
       <family>Yandex Sans Text</family>
       <pointsize>12</pointsize>
+      <weight>50</weight>
       <italic>false</italic>
       <bold>false</bold>
      </font>
@@ -607,7 +612,7 @@ QPushButton:pressed {
      <x>0</x>
      <y>0</y>
      <width>1965</width>
-     <height>23</height>
+     <height>29</height>
     </rect>
    </property>
   </widget>
