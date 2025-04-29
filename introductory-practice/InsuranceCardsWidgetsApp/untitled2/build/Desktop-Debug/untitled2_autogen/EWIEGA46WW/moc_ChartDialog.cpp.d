@@ -1,5 +1,5 @@
-/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/untitled2_autogen/EWIEGA46WW/moc_ChartDialog.cpp: /home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/ChartDialog.h \
-  /home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/untitled2_autogen/moc_predefs.h \
+/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/untitled2_autogen/EWIEGA46WW/moc_ChartDialog.cpp: /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/ChartDialog.h \
+  /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/untitled2_autogen/moc_predefs.h \
   /usr/include/GL/gl.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
@@ -323,7 +323,6 @@
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/QChartView \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/QLegend \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/QLegendMarker \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QLineSeries \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/QPieModelMapper \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/QPieSeries \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/QPieSlice \

@@ -4,11 +4,6 @@
 #include <QDialog>
 #include <QtCharts>
 #include <QtCharts/QChartView>
-#include <QtCharts/QLineSeries>
-
-QT_BEGIN_NAMESPACE
-namespace Ui { class ChartDialog; }
-QT_END_NAMESPACE
 
 class ChartDialog : public QDialog
 {

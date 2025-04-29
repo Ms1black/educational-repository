@@ -1,6 +1,6 @@
 CMakeFiles/untitled2.dir/ChartDialog.cpp.o: \
-  /home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/ChartDialog.cpp \
-  /home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/ChartDialog.h \
+  /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/ChartDialog.cpp \
+  /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/ChartDialog.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QDialog \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qdialog.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgetsglobal.h \
@@ -1026,4 +1026,12 @@ CMakeFiles/untitled2.dir/ChartDialog.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qxylegendmarker.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qtchartsversion.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/QChartView \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QLineSeries
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QHBoxLayout \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QBarCategoryAxis \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QLineSeries \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QScatterSeries \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QHorizontalBarSeries \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QToolTip \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QtMath \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QDate \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QDebug

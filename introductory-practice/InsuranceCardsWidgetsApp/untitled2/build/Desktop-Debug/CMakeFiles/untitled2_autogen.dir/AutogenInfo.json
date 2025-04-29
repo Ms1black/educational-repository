@@ -1,17 +1,17 @@
 {
-	"BUILD_DIR" : "/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/untitled2_autogen",
-	"CMAKE_BINARY_DIR" : "/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2",
+	"BUILD_DIR" : "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/untitled2_autogen",
+	"CMAKE_BINARY_DIR" : "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2",
 	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/CMakeLists.txt",
-		"/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/.qtc/package-manager/auto-setup.cmake",
-		"/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/3.28.3/CMakeSystem.cmake",
+		"/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/CMakeLists.txt",
+		"/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/.qtc/package-manager/auto-setup.cmake",
+		"/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/3.28.3/CMakeSystem.cmake",
 		"/usr/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake",
 		"/usr/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake",
-		"/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake",
+		"/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake",
 		"/usr/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake",
 		"/usr/share/cmake-3.28/Modules/CMakeGenericSystem.cmake",
 		"/usr/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake",
@@ -252,27 +252,45 @@
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Charts/Qt6ChartsAdditionalTargetInfo.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Charts/Qt6ChartsVersionlessTargets.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2",
-	"DEP_FILE" : "/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/untitled2_autogen/deps",
+	"CMAKE_SOURCE_DIR" : "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2",
+	"DEP_FILE" : "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/untitled2_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "untitled2_autogen/timestamp",
 	"HEADERS" : 
 	[
 		[
-			"/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/ChartDialog.h",
+			"/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/ChartDialog.h",
 			"MU",
 			"EWIEGA46WW/moc_ChartDialog.cpp",
 			null
 		],
 		[
-			"/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/mainwindow.h",
+			"/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/chartmanager.h",
+			"MU",
+			"EWIEGA46WW/moc_chartmanager.cpp",
+			null
+		],
+		[
+			"/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/filemanager.h",
+			"MU",
+			"EWIEGA46WW/moc_filemanager.cpp",
+			null
+		],
+		[
+			"/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
+			null
+		],
+		[
+			"/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/tablemanager.h",
+			"MU",
+			"EWIEGA46WW/moc_tablemanager.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/untitled2_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/untitled2_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/untitled2_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/untitled2_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"QT_CHARTS_LIB",
@@ -291,8 +309,8 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug",
-		"/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2",
+		"/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug",
+		"/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2",
 		"/usr/include/x86_64-linux-gnu/qt6/QtCore",
 		"/usr/include/x86_64-linux-gnu/qt6",
 		"/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++",
@@ -328,31 +346,46 @@
 		"-c",
 		"/usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/untitled2_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/untitled2_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 6,
-	"PARSE_CACHE_FILE" : "/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/untitled2_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/untitled2_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/lib/qt6/libexec/moc",
 	"QT_UIC_EXECUTABLE" : "/usr/lib/qt6/libexec/uic",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 4,
-	"SETTINGS_FILE" : "/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/untitled2_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/untitled2_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/ChartDialog.cpp",
+			"/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/ChartDialog.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/main.cpp",
+			"/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/chartmanager.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/mainwindow.cpp",
+			"/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/filemanager.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/main.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/mainwindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/tablemanager.cpp",
 			"MU",
 			null
 		]

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2
+CMAKE_SOURCE_DIR = /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug
+CMAKE_BINARY_DIR = /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug
 
 # Utility rule file for untitled2_autogen_timestamp_deps.
 
@@ -85,6 +85,6 @@ CMakeFiles/untitled2_autogen_timestamp_deps.dir/clean:
 .PHONY : CMakeFiles/untitled2_autogen_timestamp_deps.dir/clean
 
 CMakeFiles/untitled2_autogen_timestamp_deps.dir/depend:
-	cd /home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2 /home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2 /home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug /home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug /home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/untitled2_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2 /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2 /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/untitled2_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/untitled2_autogen_timestamp_deps.dir/depend
 

@@ -1,14 +1,20 @@
 untitled2_autogen/timestamp: \
-	/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/CMakeLists.txt \
-	/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/ChartDialog.cpp \
-	/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/ChartDialog.h \
-	/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/.qtc/package-manager/auto-setup.cmake \
-	/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
-	/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/3.28.3/CMakeSystem.cmake \
-	/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/untitled2_autogen/moc_predefs.h \
-	/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/main.cpp \
-	/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/mainwindow.cpp \
-	/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/mainwindow.h \
+	/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/CMakeLists.txt \
+	/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/ChartDialog.cpp \
+	/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/ChartDialog.h \
+	/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/.qtc/package-manager/auto-setup.cmake \
+	/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
+	/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/3.28.3/CMakeSystem.cmake \
+	/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/untitled2_autogen/moc_predefs.h \
+	/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/chartmanager.cpp \
+	/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/chartmanager.h \
+	/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/filemanager.cpp \
+	/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/filemanager.h \
+	/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/main.cpp \
+	/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/mainwindow.cpp \
+	/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/mainwindow.h \
+	/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/tablemanager.cpp \
+	/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/tablemanager.h \
 	/usr/include/GL/gl.h \
 	/usr/include/alloca.h \
 	/usr/include/asm-generic/errno-base.h \
@@ -332,7 +338,6 @@ untitled2_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/qt6/QtCharts/QChartView \
 	/usr/include/x86_64-linux-gnu/qt6/QtCharts/QLegend \
 	/usr/include/x86_64-linux-gnu/qt6/QtCharts/QLegendMarker \
-	/usr/include/x86_64-linux-gnu/qt6/QtCharts/QLineSeries \
 	/usr/include/x86_64-linux-gnu/qt6/QtCharts/QPieModelMapper \
 	/usr/include/x86_64-linux-gnu/qt6/QtCharts/QPieSeries \
 	/usr/include/x86_64-linux-gnu/qt6/QtCharts/QPieSlice \
@@ -398,7 +403,6 @@ untitled2_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/qt6/QtCharts/qxylegendmarker.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCharts/qxymodelmapper.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCharts/qxyseries.h \
-	/usr/include/x86_64-linux-gnu/qt6/QtCore/QDate \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/QDeadlineTimer \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/QEvent \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/QHash \
@@ -645,7 +649,6 @@ untitled2_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/QAction \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/QActionGroup \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/QBrush \
-	/usr/include/x86_64-linux-gnu/qt6/QtGui/QColor \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/QFileSystemModel \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/QFont \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/QImage \
@@ -1190,5 +1193,5 @@ untitled2_autogen/timestamp: \
 	/usr/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake \
 	/usr/share/cmake-3.28/Modules/Platform/Linux.cmake \
 	/usr/share/cmake-3.28/Modules/Platform/UnixPaths.cmake \
-	/home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/mainwindow.ui \
+	/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/mainwindow.ui \
 	/usr/bin/cmake

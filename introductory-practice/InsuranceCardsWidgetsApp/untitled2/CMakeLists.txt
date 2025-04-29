@@ -32,6 +32,9 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
         ChartDialog.ui
+        tablemanager.h tablemanager.cpp
+        filemanager.h filemanager.cpp
+        chartmanager.h chartmanager.cpp
     )
 else()
     if(ANDROID)

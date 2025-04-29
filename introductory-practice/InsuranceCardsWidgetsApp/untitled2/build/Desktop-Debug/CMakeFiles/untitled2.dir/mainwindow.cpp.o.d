@@ -1,6 +1,6 @@
 CMakeFiles/untitled2.dir/mainwindow.cpp.o: \
-  /home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/mainwindow.cpp \
-  /home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/mainwindow.h \
+  /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/mainwindow.cpp \
+  /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/mainwindow.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMainWindow \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmainwindow.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgetsglobal.h \
@@ -389,85 +389,24 @@ CMakeFiles/untitled2.dir/mainwindow.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qbitmap.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabwidget.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QSet \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QMap \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QStringList \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QDate \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qdatetime.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcalendar.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qlocale.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/QColor \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QChartView \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qchartview.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QAbstractAxis \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qabstractaxis.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QChartGlobal \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qchartglobal.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qtcharts-config.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qtchartsexports.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/QPen \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpen.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/QFont \
+  /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/untitled2_autogen/include/./ui_mainwindow.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QVariant \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QObject \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QAbstractSeries \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qabstractseries.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QChart \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qchart.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QLegend \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qlegend.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsWidget \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicswidget.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicslayoutitem.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qevent.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcoreevent.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qiodevice.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qpointer.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qurl.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qeventpoint.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qvector2d.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qvectornd.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpointingdevice.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qinputdevice.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qscreen.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QList \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QRect \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QSize \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QSizeF \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/QTransform \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qnativeinterface.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicsitem.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpainterpath.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/QBrush \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QMargins \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsView \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicsview.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpainter.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextoption.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qscrollarea.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractscrollarea.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qframe.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicsscene.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QPieSeries \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qpieseries.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QPieSlice \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qpieslice.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QLineSeries \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qlineseries.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QXYSeries \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qxyseries.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/QImage \
-  /home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/untitled2_autogen/include/./ui_mainwindow.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QApplication \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qapplication.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qcoreapplication.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcoreevent.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qeventloop.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qnativeinterface.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qcoreapplication_platform.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qguiapplication.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qinputmethod.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qlocale.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qguiapplication_platform.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QHeaderView \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qheaderview.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractitemview.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractscrollarea.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qframe.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qabstractitemmodel.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qitemselectionmodel.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractitemdelegate.h \
@@ -492,13 +431,51 @@ CMakeFiles/untitled2.dir/mainwindow.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtablewidget.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtableview.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QWidget \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QTableWidgetItem \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QComboBox \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qcombobox.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QDateEdit \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qdatetimeedit.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QFileDialog \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qfiledialog.h \
+  /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/tablemanager.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QObject \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QtCharts \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QtChartsDepends \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QtCore \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QtCoreDepends \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/q20algorithm.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/q20functional.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/q20iterator.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/q23functional.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qabstractanimation.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qabstracteventdispatcher.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qabstractnativeeventfilter.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qabstractproxymodel.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qanimationgroup.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qapplicationstatic.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QMutex \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qmutex.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qtsan_impl.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qassociativeiterable.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qbasictimer.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qbitarray.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qbuffer.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qiodevice.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qbytearraymatcher.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcache.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcalendar.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcborarray.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcborvalue.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qdatetime.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcborcommon.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qurl.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/quuid.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcbormap.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcborstream.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcborstreamreader.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qfloat16.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcborstreamwriter.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcollator.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcommandlineoption.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcommandlineparser.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qconcatenatetablesproxymodel.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcryptographichash.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qdeadlinetimer.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qelapsedtimer.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qdir.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qfile.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qfiledevice.h \
@@ -535,56 +512,13 @@ CMakeFiles/untitled2.dir/mainwindow.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/fs_dir.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/fs_ops.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qfileinfo.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qdialog.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMessageBox \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmessagebox.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QTextStream \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QRegularExpression \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QtCharts \
-  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QtChartsDepends \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QtCore \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QtCoreDepends \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/q20algorithm.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/q20functional.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/q20iterator.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/q23functional.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qabstractanimation.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qabstracteventdispatcher.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qabstractnativeeventfilter.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qabstractproxymodel.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qanimationgroup.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qapplicationstatic.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QMutex \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qmutex.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qtsan_impl.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qassociativeiterable.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qbasictimer.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qbitarray.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qbuffer.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qbytearraymatcher.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcache.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcborarray.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcborvalue.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcborcommon.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/quuid.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcbormap.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcborstream.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcborstreamreader.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qfloat16.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcborstreamwriter.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcollator.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcommandlineoption.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcommandlineparser.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qconcatenatetablesproxymodel.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcryptographichash.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qdeadlinetimer.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qelapsedtimer.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qdiriterator.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qeasingcurve.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qendian.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qexception.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qfactoryinterface.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qfileselector.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QStringList \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qfilesystemwatcher.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qfuture.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qfutureinterface.h \
@@ -600,6 +534,7 @@ CMakeFiles/untitled2.dir/mainwindow.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/atomic_futex.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/std_thread.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qrunnable.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qpointer.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qpromise.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qfuturesynchronizer.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qfuturewatcher.h \
@@ -771,7 +706,9 @@ CMakeFiles/untitled2.dir/mainwindow.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QHash \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QString \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qvariantlist.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QList \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qvariantmap.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QMap \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qvector.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qwaitcondition.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QDeadlineTimer \
@@ -784,12 +721,25 @@ CMakeFiles/untitled2.dir/mainwindow.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qabstractfileiconprovider.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qabstracttextdocumentlayout.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextlayout.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qevent.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qeventpoint.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qvector2d.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qvectornd.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpointingdevice.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qinputdevice.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qscreen.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QRect \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QSize \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QSizeF \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/QTransform \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qglyphrun.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qrawfont.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qfontdatabase.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextcursor.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextdocument.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextformat.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpen.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextoption.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qaccessible.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qaccessible_base.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qaccessiblebridge.h \
@@ -799,6 +749,7 @@ CMakeFiles/untitled2.dir/mainwindow.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qbackingstore.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qwindow.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QEvent \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QMargins \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qsurface.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qsurfaceformat.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qclipboard.h \
@@ -839,6 +790,8 @@ CMakeFiles/untitled2.dir/mainwindow.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/QWindow \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/QPaintDevice \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qpaintengine.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpainter.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpainterpath.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qpdfwriter.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qpicture.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qpixmapcache.h \
@@ -874,17 +827,21 @@ CMakeFiles/untitled2.dir/mainwindow.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qcalendarwidget.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qcheckbox.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qcolordialog.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qdialog.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qcolormap.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qcolumnview.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qcombobox.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qcommandlinkbutton.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qcommonstyle.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qcompleter.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qdatawidgetmapper.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qdatetimeedit.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qdial.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qdialogbuttonbox.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qdockwidget.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qdrawutil.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qerrormessage.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qfiledialog.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qfileiconprovider.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qfilesystemmodel.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/QFileSystemModel \
@@ -896,16 +853,22 @@ CMakeFiles/untitled2.dir/mainwindow.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgesture.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgesturerecognizer.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicsanchorlayout.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicsitem.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicslayout.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicslayoutitem.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicseffect.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicsgridlayout.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicsitemanimation.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicslinearlayout.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicsproxywidget.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicswidget.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicsscene.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicssceneevent.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicstransform.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/QVector3D \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/QMatrix4x4 \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicsview.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qscrollarea.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgroupbox.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qinputdialog.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlineedit.h \
@@ -918,6 +881,7 @@ CMakeFiles/untitled2.dir/mainwindow.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlistwidget.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmdiarea.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmdisubwindow.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmessagebox.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qplaintextedit.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtextedit.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qprogressbar.h \
@@ -979,6 +943,7 @@ CMakeFiles/untitled2.dir/mainwindow.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/qopenglvertexarrayobject.h \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/qopenglwindow.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/QOpenGLContext \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/QImage \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGL/qtopenglversion.h \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGLWidgets/QtOpenGLWidgets \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGLWidgets/QtOpenGLWidgetsDepends \
@@ -986,10 +951,24 @@ CMakeFiles/untitled2.dir/mainwindow.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGLWidgets/qtopenglwidgetsexports.h \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGLWidgets/qopenglwidget.h \
   /usr/include/x86_64-linux-gnu/qt6/QtOpenGLWidgets/qtopenglwidgetsversion.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qchartglobal.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qtcharts-config.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qtchartsexports.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qabstractaxis.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QChartGlobal \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/QPen \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/QFont \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qabstractbarseries.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QAbstractSeries \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qabstractseries.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QAbstractAxis \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qarealegendmarker.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/QLegendMarker \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qlegendmarker.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QLegend \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qlegend.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsWidget \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/QBrush \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/QAreaSeries \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qareaseries.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qbarcategoryaxis.h \
@@ -1013,6 +992,10 @@ CMakeFiles/untitled2.dir/mainwindow.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qcategoryaxis.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/QValueAxis \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qvalueaxis.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qchart.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qchartview.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QChart \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsView \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qcoloraxis.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qdatetimeaxis.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qhbarmodelmapper.h \
@@ -1030,9 +1013,16 @@ CMakeFiles/untitled2.dir/mainwindow.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qhxymodelmapper.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/QXYModelMapper \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qxymodelmapper.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qlineseries.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QXYSeries \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qxyseries.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qlogvalueaxis.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qpercentbarseries.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qpielegendmarker.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QPieSeries \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qpieseries.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QPieSlice \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/qpieslice.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qpolarchart.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qscatterseries.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qsplineseries.h \
@@ -1044,5 +1034,20 @@ CMakeFiles/untitled2.dir/mainwindow.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qvxymodelmapper.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qxylegendmarker.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/qtchartsversion.h \
-  /home/liza/educational-repository/InsuranceCardsWidgetsApp/untitled2/ChartDialog.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QDialog
+  /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/filemanager.h \
+  /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/chartmanager.h \
+  /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/ChartDialog.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QDialog \
+  /usr/include/x86_64-linux-gnu/qt6/QtCharts/QChartView \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QFileDialog \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMessageBox \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QFormLayout \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QLineEdit \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QDateEdit \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QComboBox \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QDialogButtonBox \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/QDoubleValidator \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/QIntValidator \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/QRegularExpressionValidator \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QRegularExpression \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QDebug
