@@ -22,14 +22,14 @@ void MusicManager::displayAllTracks() {
     std::cout << "------------------------------------------------------------------------------------------------------------------------------" << std::endl;
 
     for (int i = 0; i < track_list.size(); ++i) {
-        std::cout << track_list[i];
+        track_list[i].display(std::cout);
     }
 }
 
 void MusicManager::displayAllTracks(const std::string& genre_filter) {
     for (int i = 0; i < track_list.size(); ++i) {
         if (track_list[i].track_genre == genre_filter) {
-            std::cout << track_list[i];
+            track_list[i].display(std::cout);
         }
     }
 }
