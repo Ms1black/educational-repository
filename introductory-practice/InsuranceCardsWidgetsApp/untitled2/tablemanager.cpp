@@ -336,14 +336,21 @@ void TableManager::deleteSelectedRow()
     }
 }
 
+
 QString TableManager::formatPhoneNumber(const QString &phone) {
-    QString formatted = phone.trimmed();
-    QRegularExpression re("^(\\d{1})(\\d{3})(\\d{3})(\\d{2})(\\d{2})$");
-    auto match = re.match(formatted);
-    if (match.hasMatch()) {
-        return QString("+%1 (%2) %3-%4-%5").arg(match.captured(1), match.captured(2), match.captured(3), match.captured(4), match.captured(5));
+    QString digitsOnly = phone;
+    digitsOnly.remove(QRegularExpression("\\D"));
+
+    if (digitsOnly.length() == 11 && digitsOnly.startsWith('7')) {
+        return QString("+%1 (%2) %3-%4-%5")
+            .arg(digitsOnly.mid(0, 1))  // '7'
+            .arg(digitsOnly.mid(1, 3))  // XXX
+            .arg(digitsOnly.mid(4, 3))  // XXX
+            .arg(digitsOnly.mid(7, 2))  // XX
+            .arg(digitsOnly.mid(9, 2));  // XX
     }
-    return formatted.remove(QRegularExpression("[^0-9]"));
+
+    return digitsOnly;
 }
 
 QTableWidget* TableManager::getTableWidget() const { return m_tableWidget; }

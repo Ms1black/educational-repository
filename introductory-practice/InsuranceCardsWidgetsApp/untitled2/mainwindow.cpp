@@ -293,16 +293,13 @@ bool MainWindow::validateRowData(int row)
     if (phoneStr.isEmpty()) {
         errorMsg += "Не указан Телефон.\n"; isValid = false;
     } else {
-
         QString digitsOnly = phoneStr;
         digitsOnly.remove(QRegularExpression("\\D"));
-
-        if (!phoneStr.startsWith("+7")) {
-            errorMsg += "Телефон: Ожидаемый формат +7(XXX)XXX-XX-XX (ошибка форматирования?).\n"; isValid = false;
-        } else if (digitsOnly.length() != 11) {
+        if (digitsOnly.length() != 11) {
             errorMsg += "Телефон: Ожидается 11 цифр (например, +7(999)123-45-67).\n"; isValid = false;
+        } else if (!digitsOnly.startsWith('7')) {
+            errorMsg += "Телефон: Должен начинаться с 7 (или +7).\n"; isValid = false;
         }
-
     }
 
     if (!isValid) {
