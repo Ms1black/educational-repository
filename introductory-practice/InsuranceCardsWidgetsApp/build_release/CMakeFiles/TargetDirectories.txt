@@ -1,0 +1,5 @@
+/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/build_release/CMakeFiles/untitled2.dir
+/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/build_release/CMakeFiles/edit_cache.dir
+/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/build_release/CMakeFiles/rebuild_cache.dir
+/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/build_release/CMakeFiles/untitled2_autogen_timestamp_deps.dir
+/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/build_release/CMakeFiles/untitled2_autogen.dir
