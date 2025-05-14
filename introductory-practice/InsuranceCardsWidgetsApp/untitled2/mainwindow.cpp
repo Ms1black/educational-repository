@@ -4,6 +4,8 @@
 #include "filemanager.h"
 #include "chartmanager.h"
 #include "ChartDialog.h"
+#include "searchmanager.h"
+
 
 #include <QFileDialog>
 #include <QMessageBox>
@@ -18,7 +20,7 @@
 #include <QRegularExpressionValidator>
 #include <QRegularExpression>
 #include <QDebug>
-
+#include <QMap>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -30,7 +32,69 @@ MainWindow::MainWindow(QWidget *parent)
     m_tableManager = new TableManager(ui->insuranceTable, this, this);
     m_fileManager = new FileManager();
     m_chartManager = new ChartManager(ui->chartWidget_, this);
+    searchManager = new SearchManager(this);
+
     m_tableManager->initializeTable();
+
+    columnMap.clear();
+    QTableWidget* currentTable = m_tableManager->getTableWidget();
+    if (currentTable) { // Проверяем, что указатель на таблицу действителен
+        // Сначала заполняем карту точными текстами заголовков (в нижнем регистре)
+        for (int col = 0; col < currentTable->columnCount(); ++col) {
+            QTableWidgetItem *headerItem = currentTable->horizontalHeaderItem(col);
+            if (headerItem) {
+                QString name = headerItem->text().trimmed().toLower();
+                columnMap[name] = col; // Сохраняем соответствие имени и индекса
+                qDebug() << "Mapped exact header:" << name << "to index" << col;
+            }
+        }
+
+        // Теперь добавляем пользовательские псевдонимы (alias)
+        // Карта: пользовательский параметр (в нижнем регистре) -> точный текст заголовка (в нижнем регистре)
+        QMap<QString, QString> aliases;
+        aliases["застрахованный"] = "фио застрахованного";
+        aliases["агент"] = "фио агента";
+        // "скидка" и "телефон" совпадают с заголовками, явные псевдонимы не нужны, если нет альтернативных написаний
+        aliases["скидка"] = "скидка"; // Добавляем для уверенности, хотя может совпадать
+        aliases["телефон"] = "телефон"; // Добавляем для уверенности
+        aliases["дата"] = "дата страховки"; // Маппим общий "дата" на "дата страховки"
+        aliases["дата окончания"] = "дата окончания"; // Добавляем псевдоним для даты окончания
+
+
+        // Добавляем псевдонимы в columnMap, если соответствующий заголовок найден
+        for (auto it = aliases.constBegin(); it != aliases.constEnd(); ++it) {
+            const QString& alias = it.key(); // Пользовательский параметр (например, "агент")
+            const QString& actualHeaderName = it.value(); // Соответствующий заголовок (например, "фио агента")
+
+            // Проверяем, существует ли заголовок в нашей карте (он должен быть добавлен первым циклом)
+            if (columnMap.contains(actualHeaderName)) {
+                // Маппим пользовательский псевдоним на тот же индекс столбца, что и реальный заголовок
+                columnMap[alias] = columnMap[actualHeaderName];
+                qDebug() << "Mapped alias:" << alias << "to index" << columnMap[actualHeaderName] << "(" << actualHeaderName << ")";
+            } else {
+                qWarning() << "Alias '" << alias << "' maps to unknown header '" << actualHeaderName << "'. This alias will not work for search.";
+            }
+        }
+
+
+    } else {
+        qWarning() << "TableWidget is null in MainWindow constructor!";
+    }
+
+    ui->searchLineEdit->setPlaceholderText("🔍 параметр: текст");
+
+    ui->searchLineEdit->setStyleSheet(R"(
+        QLineEdit#searchLineEdit {
+            border: 2px solid black; /* Светло-серая рамка */
+            border-radius: 10px; /* Скругленные углы. Подберите значение по вкусу. */
+            padding: 0 10px; /* Простой внутренний отступ (сверху, справа, снизу, слева - по 10px) */
+            background-color: #ffffff; /* Белый фон */
+            selection-background-color: #c0e0ff; /* Цвет выделенного текста */
+        }
+        /* Удалены стили для QToolButton, так как значка нет */
+    )");
+
+
 
     setupConnections();
 
@@ -47,6 +111,14 @@ MainWindow::~MainWindow()
 void MainWindow::setupConnections()
 {
     connect(ui->openChartButton, &QPushButton::clicked, this, &MainWindow::on_openChartsButton_clicked);
+    // Подключаем сигнал изменения текста в searchLineEdit к слоту поиска
+    connect(ui->searchLineEdit, &QLineEdit::textChanged, this, [=](const QString &text) {
+        // Вызываем метод search у searchManager, передавая ему QTableWidget, текст и карту столбцов
+        // ИСПОЛЬЗУЕМ m_tableManager->getTableWidget() ВМЕСТО НЕОБЪЯВЛЕННОЙ 'table'
+        searchManager->search(m_tableManager->getTableWidget(), text, columnMap);
+    });
+
+
 }
 
 

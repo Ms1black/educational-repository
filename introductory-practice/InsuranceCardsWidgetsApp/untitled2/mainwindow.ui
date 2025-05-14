@@ -91,9 +91,9 @@
    <widget class="QTableWidget" name="insuranceTable">
     <property name="geometry">
      <rect>
-      <x>50</x>
+      <x>30</x>
       <y>110</y>
-      <width>1281</width>
+      <width>1471</width>
       <height>791</height>
      </rect>
     </property>
@@ -374,7 +374,7 @@ QTableWidget:focus {
    <widget class="QPushButton" name="loadButton">
     <property name="geometry">
      <rect>
-      <x>120</x>
+      <x>560</x>
       <y>40</y>
       <width>151</width>
       <height>41</height>
@@ -412,7 +412,7 @@ QPushButton:pressed {
    <widget class="QPushButton" name="exportButton">
     <property name="geometry">
      <rect>
-      <x>290</x>
+      <x>730</x>
       <y>40</y>
       <width>151</width>
       <height>41</height>
@@ -450,7 +450,7 @@ QPushButton:pressed {
    <widget class="QPushButton" name="addButton">
     <property name="geometry">
      <rect>
-      <x>570</x>
+      <x>1100</x>
       <y>40</y>
       <width>191</width>
       <height>41</height>
@@ -488,7 +488,7 @@ QPushButton:pressed {
    <widget class="QPushButton" name="deleteButton">
     <property name="geometry">
      <rect>
-      <x>780</x>
+      <x>1310</x>
       <y>40</y>
       <width>191</width>
       <height>41</height>
@@ -523,59 +523,21 @@ QPushButton:pressed {
      <string>Удалить запись</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="loadButton_5">
-    <property name="geometry">
-     <rect>
-      <x>1080</x>
-      <y>40</y>
-      <width>241</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Yandex Sans Text</family>
-      <pointsize>12</pointsize>
-      <italic>false</italic>
-      <bold>false</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QPushButton {
-    background-color: white;
-    border: 2px solid black;
-    color: black;
-    border-radius: 8px;
-    padding: 8px 16px;
-    font-size: 12pt;
-}
-QPushButton:hover {
-    background-color: #e6e6e6;
-}
-QPushButton:pressed {
-    background-color: #d4d4d4;
-}
-</string>
-    </property>
-    <property name="text">
-     <string>Открыть меню запросов</string>
-    </property>
-   </widget>
    <widget class="QWidget" name="chartWidget&#10;" native="true">
     <property name="geometry">
      <rect>
-      <x>1370</x>
-      <y>240</y>
-      <width>461</width>
-      <height>451</height>
+      <x>1530</x>
+      <y>290</y>
+      <width>361</width>
+      <height>391</height>
      </rect>
     </property>
    </widget>
    <widget class="QPushButton" name="openChartButton">
     <property name="geometry">
      <rect>
-      <x>1480</x>
-      <y>740</y>
+      <x>1600</x>
+      <y>700</y>
       <width>231</width>
       <height>41</height>
      </rect>
@@ -598,6 +560,16 @@ QPushButton:pressed {
     </property>
     <property name="text">
      <string>Посмотреть аналитику</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="searchLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>40</y>
+      <width>491</width>
+      <height>41</height>
+     </rect>
     </property>
    </widget>
   </widget>

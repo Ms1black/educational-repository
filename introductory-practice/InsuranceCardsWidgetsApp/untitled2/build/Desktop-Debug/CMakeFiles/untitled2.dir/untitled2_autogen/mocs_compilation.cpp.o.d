@@ -1034,5 +1034,8 @@ CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.o: \
   /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/untitled2_autogen/EWIEGA46WW/../../../../mainwindow.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMainWindow \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QSet \
+  /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/untitled2_autogen/EWIEGA46WW/../../../../searchmanager.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QTableWidget \
+  /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/untitled2_autogen/EWIEGA46WW/moc_searchmanager.cpp \
   /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/untitled2_autogen/EWIEGA46WW/moc_tablemanager.cpp \
   /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/untitled2_autogen/EWIEGA46WW/../../../../tablemanager.h

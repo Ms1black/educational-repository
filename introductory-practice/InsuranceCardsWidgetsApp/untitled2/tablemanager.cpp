@@ -14,28 +14,21 @@
 #include <QAbstractItemView>
 #include <QItemSelectionModel>
 #include <QModelIndexList>
+#include <QSortFilterProxyModel>
+#include <QPainter>
+#include <QApplication>
 
 
 TableManager::TableManager(QTableWidget *tableWidget, MainWindow *mainWindow, QObject *parent)
     : QObject(parent),
     m_tableWidget(tableWidget),
     m_mainWindow(mainWindow),
-    m_currentlyEditingRow(-1)
+    m_currentlyEditingRow(-1),
+    m_sortedColumn(-1),
+    m_sortOrder(Qt::AscendingOrder)
 {
     Q_ASSERT(m_tableWidget != nullptr);
     Q_ASSERT(m_mainWindow != nullptr);
-
-}
-
-
-void TableManager::setupTableEditors()
-{
-    qDebug() << "Setting up table editors...";
-    m_tableWidget->setItemDelegateForColumn(Column::Amount, new QStyledItemDelegate(m_tableWidget));
-    m_tableWidget->setItemDelegateForColumn(Column::Discount, new QStyledItemDelegate(m_tableWidget));
-    m_tableWidget->setItemDelegateForColumn(Column::InsuredFio, new QStyledItemDelegate(m_tableWidget));
-    m_tableWidget->setItemDelegateForColumn(Column::AgentFio, new QStyledItemDelegate(m_tableWidget));
-    m_tableWidget->setItemDelegateForColumn(Column::Phone, new QStyledItemDelegate(m_tableWidget));
 }
 
 void TableManager::initializeTable()
@@ -53,11 +46,15 @@ void TableManager::initializeTable()
     m_tableWidget->setSelectionMode(QAbstractItemView::SingleSelection);
     m_tableWidget->setEditTriggers(QAbstractItemView::NoEditTriggers);
 
+    // Enable sorting and connect header signal
+    m_tableWidget->setSortingEnabled(true);
+    connect(m_tableWidget->horizontalHeader(), &QHeaderView::sectionClicked, this, &TableManager::onHeaderClicked);
+
     setupTableEditors();
 
     m_tableWidget->setStyleSheet(R"(
         QTableWidget {
-            background-color: #f9f9f9; border: 1px solid #ddd;
+            background-color: #f9f9f9; border: 3px solid #ddd;
             font-family: 'Segoe UI', sans-serif; font-size: 14px; color: #333;
         }
         QTableWidget::item { padding: 8px; border-bottom: 1px solid #ddd; background-color: #fff; }
@@ -73,24 +70,89 @@ void TableManager::initializeTable()
     )");
 
     QHeaderView *header = m_tableWidget->horizontalHeader();
+    header->setSectionsClickable(true);
+    header->setHighlightSections(true);
 
+    // Основные настройки ширины столбцов
+    header->setStretchLastSection(false); // Отключаем растягивание последнего столбца
 
+    // Первые два столбца (ФИО) - растягиваемые
     header->setSectionResizeMode(Column::InsuredFio, QHeaderView::Stretch);
     header->setSectionResizeMode(Column::AgentFio, QHeaderView::Stretch);
+
+    // Остальные столбцы - фиксированные или по содержимому
     header->setSectionResizeMode(Column::Amount, QHeaderView::ResizeToContents);
     header->setSectionResizeMode(Column::StartDate, QHeaderView::ResizeToContents);
     header->setSectionResizeMode(Column::EndDate, QHeaderView::ResizeToContents);
     header->setSectionResizeMode(Column::Type, QHeaderView::ResizeToContents);
     header->setSectionResizeMode(Column::Phone, QHeaderView::ResizeToContents);
     header->setSectionResizeMode(Column::Discount, QHeaderView::ResizeToContents);
-    header->setSectionResizeMode(Column::EditButton, QHeaderView::ResizeToContents);
 
+    // Кнопка редактирования - фиксированная ширина
+    header->setSectionResizeMode(Column::EditButton, QHeaderView::Fixed);
     header->resizeSection(Column::EditButton, 45);
+
+    // Устанавливаем минимальные ширины для важных столбцов
+    header->setMinimumSectionSize(60); // Минимальная ширина для всех столбцов
+    header->resizeSection(Column::Amount, 100); // Фиксированная ширина для суммы
+    header->resizeSection(Column::Discount, 80); // Фиксированная ширина для скидки
 
     m_tableWidget->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
 
     qDebug() << "Table initialization finished.";
 }
+
+void TableManager::onHeaderClicked(int logicalIndex)
+{
+    if (logicalIndex == Column::EditButton) return;
+
+    if (m_currentlyEditingRow != -1) {
+        QMessageBox::warning(m_mainWindow, "Ошибка", "Завершите редактирование перед сортировкой.");
+        return;
+    }
+
+    // 1. Блокируем обновление таблицы (чтобы ширина не сбрасывалась)
+    m_tableWidget->setUpdatesEnabled(false);
+
+    if (m_sortedColumn == logicalIndex) {
+        m_sortOrder = (m_sortOrder == Qt::AscendingOrder) ? Qt::DescendingOrder : Qt::AscendingOrder;
+    } else {
+        m_sortedColumn = logicalIndex;
+        m_sortOrder = Qt::AscendingOrder;
+    }
+
+    m_tableWidget->sortItems(m_sortedColumn, m_sortOrder);
+    m_tableWidget->horizontalHeader()->setSortIndicator(m_sortedColumn, m_sortOrder);
+
+    // 2. Разблокируем обновление и форсируем перерисовку
+    m_tableWidget->setUpdatesEnabled(true);
+    m_tableWidget->resizeColumnsToContents(); // Можно убрать, если ширина должна оставаться фиксированной
+}
+
+void TableManager::sortTable(int column, Qt::SortOrder order)
+{
+    m_tableWidget->sortItems(column, order);
+}
+
+void TableManager::updateSortIndicator(int column, Qt::SortOrder order)
+{
+    QHeaderView *header = m_tableWidget->horizontalHeader();
+    header->setSortIndicatorShown(true);
+    header->setSortIndicator(column, order);
+}
+
+
+void TableManager::setupTableEditors()
+{
+    qDebug() << "Setting up table editors...";
+    m_tableWidget->setItemDelegateForColumn(Column::Amount, new QStyledItemDelegate(m_tableWidget));
+    m_tableWidget->setItemDelegateForColumn(Column::Discount, new QStyledItemDelegate(m_tableWidget));
+    m_tableWidget->setItemDelegateForColumn(Column::InsuredFio, new QStyledItemDelegate(m_tableWidget));
+    m_tableWidget->setItemDelegateForColumn(Column::AgentFio, new QStyledItemDelegate(m_tableWidget));
+    m_tableWidget->setItemDelegateForColumn(Column::Phone, new QStyledItemDelegate(m_tableWidget));
+}
+
+
 
 QTableWidgetItem* TableManager::createNonEditableItem(const QString& text) {
     auto *item = new QTableWidgetItem(text);
@@ -154,6 +216,7 @@ void TableManager::addEditButton(int row)
     QPushButton* button = new QPushButton("✏️");
     button->setFixedSize(30, 30);
     button->setProperty("row", row);
+    button->setStyleSheet("QPushButton { border: none; background: transparent; }");
     connect(button, &QPushButton::clicked, this, &TableManager::onEditSaveButtonClicked);
     button->setFocusPolicy(Qt::NoFocus);
     m_tableWidget->setCellWidget(row, Column::EditButton, button);
@@ -165,112 +228,101 @@ void TableManager::onEditSaveButtonClicked()
     if (!button) return;
 
     int row = button->property("row").toInt();
-    bool startEditing = (button->text() == "✏️");
+    bool isEditMode = (button->text() == "✏️");
 
-    if (startEditing && m_currentlyEditingRow != -1 && m_currentlyEditingRow != row) {
-        if(QWidget* oldButtonWidget = m_tableWidget->cellWidget(m_currentlyEditingRow, Column::EditButton)) {
-            if(QPushButton* oldButton = qobject_cast<QPushButton*>(oldButtonWidget)) {
-                qDebug() << "Auto-saving row" << m_currentlyEditingRow << "before editing row" << row;
-                oldButton->click();
-                if (oldButton->text() != "✏️") {
-                    qWarning() << "Failed to auto-save row" << m_currentlyEditingRow;
-                    QMessageBox::warning(m_mainWindow, "Ошибка", QString("Сначала завершите редактирование строки %1 (нажмите 💾).").arg(m_currentlyEditingRow + 1));
-                    return;
-                }
-            }
-        } else {
-            qWarning() << "Could not find button for previously editing row" << m_currentlyEditingRow << ". Resetting edit state.";
-            m_currentlyEditingRow = -1;
-            m_tableWidget->setEditTriggers(QAbstractItemView::NoEditTriggers);
+    if (isEditMode) {
+        // Проверяем, не редактируется ли уже другая строка
+        if (m_currentlyEditingRow != -1 && m_currentlyEditingRow != row) {
+            QMessageBox::warning(m_mainWindow, "Ошибка",
+                                 "Завершите редактирование текущей строки перед редактированием другой.");
+            return;
         }
-    }
 
-    qDebug() << "Button clicked for row" << row << ". Start editing:" << startEditing;
-
-    if (startEditing) {
-        Qt::ItemFlags flagsToSet = (Qt::ItemIsEnabled | Qt::ItemIsSelectable | Qt::ItemIsEditable);
-        const QList<int> itemColumns = {Column::InsuredFio, Column::AgentFio, Column::Amount, Column::Phone, Column::Discount};
-        for (int col : itemColumns) {
-            QTableWidgetItem* item = m_tableWidget->item(row, col);
-            if (!item) { item = new QTableWidgetItem(); m_tableWidget->setItem(row, col, item); }
-            item->setFlags(flagsToSet);
-            item->setBackground(QColor("#FFF9C4"));
-        }
-        const QList<int> widgetColumns = {Column::StartDate, Column::EndDate, Column::Type};
-        for (int col : widgetColumns) { if (QWidget* widget = m_tableWidget->cellWidget(row, col)) { widget->setEnabled(true); } }
-        m_tableWidget->setEditTriggers(QAbstractItemView::DoubleClicked | QAbstractItemView::EditKeyPressed);
-        qDebug() << "Table edit triggers set to:" << m_tableWidget->editTriggers();
-        m_currentlyEditingRow = row;
+        // Активируем режим редактирования
         button->setText("💾");
+        m_currentlyEditingRow = row;
+
+        // Включаем редактирование только для нужных столбцов
+        QList<int> editableColumns = {
+            Column::InsuredFio,
+            Column::AgentFio,
+            Column::Amount,
+            Column::Phone,
+            Column::Discount
+        };
+
+        for (int col : editableColumns) {
+            if (QTableWidgetItem* item = m_tableWidget->item(row, col)) {
+                item->setFlags(item->flags() | Qt::ItemIsEditable);
+                item->setBackground(QColor("#FFF9C4"));
+            }
+        }
+
+        // Для виджетов (даты и комбобокс) просто включаем возможность взаимодействия
+        if (auto* dateEdit = qobject_cast<QDateEdit*>(m_tableWidget->cellWidget(row, Column::StartDate))) {
+            dateEdit->setEnabled(true);
+        }
+        if (auto* dateEdit = qobject_cast<QDateEdit*>(m_tableWidget->cellWidget(row, Column::EndDate))) {
+            dateEdit->setEnabled(true);
+        }
+        if (auto* combo = qobject_cast<QComboBox*>(m_tableWidget->cellWidget(row, Column::Type))) {
+            combo->setEnabled(true);
+        }
+
+        m_tableWidget->setEditTriggers(QAbstractItemView::DoubleClicked | QAbstractItemView::EditKeyPressed);
         m_tableWidget->setCurrentCell(row, Column::InsuredFio);
-        m_tableWidget->edit(m_tableWidget->model()->index(row, Column::InsuredFio));
-        qDebug() << "Editing started for row" << row;
-    }
-    else {
-        qDebug() << "Finishing edit for row" << row;
 
-        QTableWidgetItem* phoneItem = m_tableWidget->item(row, Column::Phone);
-        if (phoneItem) {
-            QString rawPhone = phoneItem->text();
-            QString formattedPhone = formatPhoneNumber(rawPhone);
-            if (rawPhone != formattedPhone) {
-                phoneItem->setText(formattedPhone);
-                qDebug() << "Formatted phone in cell:" << formattedPhone;
-            }
-        } else {
-            qWarning() << "Phone item not found at row" << row << "col" << Column::Phone;
-        }
-
-        QTableWidgetItem* discountItem = m_tableWidget->item(row, Column::Discount);
-        if (discountItem) {
-            QString currentText = discountItem->text().trimmed();
-            QString textToValidate = currentText;
-            QString formattedDiscount = "0%";
-            bool ok = false;
-            int value = 0;
-
-            if (textToValidate.endsWith('%')) {
-                textToValidate.chop(1);
-            }
-
-            value = textToValidate.toInt(&ok);
-
-            if (ok && value >= 0 && value <= 100) {
-                formattedDiscount = QString::number(value) + "%";
-            } else {
-                qWarning() << "Invalid discount value entered:" << currentText << ". Resetting to 0%.";
-            }
-
-            if (currentText != formattedDiscount) {
-                discountItem->setText(formattedDiscount);
-                qDebug() << "Formatted discount in cell:" << formattedDiscount;
-            }
-        } else {
-            qWarning() << "Discount item not found at row" << row << "col" << Column::Discount;
-        }
-
-        Qt::ItemFlags flagsToSet = (Qt::ItemIsEnabled | Qt::ItemIsSelectable);
-        const QList<int> itemColumns = {Column::InsuredFio, Column::AgentFio, Column::Amount, Column::Phone, Column::Discount};
-        for (int col : itemColumns) {
-            QTableWidgetItem* item = m_tableWidget->item(row, col);
-            if (!item) { continue; }
-            item->setFlags(flagsToSet);
-            item->setBackground(Qt::white);
-        }
-
-        const QList<int> widgetColumns = {Column::StartDate, Column::EndDate, Column::Type};
-        for (int col : widgetColumns) { if (QWidget* widget = m_tableWidget->cellWidget(row, col)) { widget->setEnabled(false); } }
-
-        if (row == m_currentlyEditingRow || m_currentlyEditingRow == -1) {
-            m_tableWidget->setEditTriggers(QAbstractItemView::NoEditTriggers);
-            qDebug() << "Table edit triggers set back to NoEditTriggers";
-        }
-
-        m_currentlyEditingRow = -1;
+    } else {
+        // Сохраняем изменения
         button->setText("✏️");
-        qDebug() << "Editing finished and data formatted for row" << row;
+        m_currentlyEditingRow = -1;
 
-        m_mainWindow->handleCellChanged(row, -1);
+        // Отключаем редактирование для всех ячеек
+        for (int col = 0; col < m_tableWidget->columnCount(); ++col) {
+            if (QTableWidgetItem* item = m_tableWidget->item(row, col)) {
+                item->setFlags(item->flags() & ~Qt::ItemIsEditable);
+                item->setBackground(Qt::white);
+            }
+        }
+
+        // Отключаем виджеты
+        if (auto* dateEdit = qobject_cast<QDateEdit*>(m_tableWidget->cellWidget(row, Column::StartDate))) {
+            dateEdit->setEnabled(false);
+        }
+        if (auto* dateEdit = qobject_cast<QDateEdit*>(m_tableWidget->cellWidget(row, Column::EndDate))) {
+            dateEdit->setEnabled(false);
+        }
+        if (auto* combo = qobject_cast<QComboBox*>(m_tableWidget->cellWidget(row, Column::Type))) {
+            combo->setEnabled(false);
+        }
+
+        formatRowData(row);
+        m_tableWidget->setEditTriggers(QAbstractItemView::NoEditTriggers);
+
+        if (m_mainWindow) {
+            m_mainWindow->handleCellChanged(row, -1);
+        }
+    }
+}
+
+void TableManager::formatRowData(int row)
+{
+    if (QTableWidgetItem* phoneItem = m_tableWidget->item(row, Column::Phone)) {
+        QString formatted = formatPhoneNumber(phoneItem->text());
+        if (phoneItem->text() != formatted) {
+            phoneItem->setText(formatted);
+        }
+    }
+
+    if (QTableWidgetItem* discountItem = m_tableWidget->item(row, Column::Discount)) {
+        QString text = discountItem->text().replace("%", "").trimmed();
+        bool ok;
+        int value = text.toInt(&ok);
+        if (ok && value >= 0 && value <= 100) {
+            discountItem->setText(QString::number(value) + "%");
+        } else {
+            discountItem->setText("0%");
+        }
     }
 }
 

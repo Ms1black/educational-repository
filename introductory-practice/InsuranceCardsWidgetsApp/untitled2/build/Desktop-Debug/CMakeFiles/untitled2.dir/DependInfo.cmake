@@ -14,6 +14,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/filemanager.cpp" "CMakeFiles/untitled2.dir/filemanager.cpp.o" "gcc" "CMakeFiles/untitled2.dir/filemanager.cpp.o.d"
   "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/main.cpp" "CMakeFiles/untitled2.dir/main.cpp.o" "gcc" "CMakeFiles/untitled2.dir/main.cpp.o.d"
   "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/mainwindow.cpp" "CMakeFiles/untitled2.dir/mainwindow.cpp.o" "gcc" "CMakeFiles/untitled2.dir/mainwindow.cpp.o.d"
+  "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/searchmanager.cpp" "CMakeFiles/untitled2.dir/searchmanager.cpp.o" "gcc" "CMakeFiles/untitled2.dir/searchmanager.cpp.o.d"
   "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/tablemanager.cpp" "CMakeFiles/untitled2.dir/tablemanager.cpp.o" "gcc" "CMakeFiles/untitled2.dir/tablemanager.cpp.o.d"
   "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/untitled2_autogen/mocs_compilation.cpp" "CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.o.d"
   )

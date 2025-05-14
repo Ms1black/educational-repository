@@ -12,6 +12,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/untitled2.dir/main.cpp.o.d"
   "CMakeFiles/untitled2.dir/mainwindow.cpp.o"
   "CMakeFiles/untitled2.dir/mainwindow.cpp.o.d"
+  "CMakeFiles/untitled2.dir/searchmanager.cpp.o"
+  "CMakeFiles/untitled2.dir/searchmanager.cpp.o.d"
   "CMakeFiles/untitled2.dir/tablemanager.cpp.o"
   "CMakeFiles/untitled2.dir/tablemanager.cpp.o.d"
   "CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.o"

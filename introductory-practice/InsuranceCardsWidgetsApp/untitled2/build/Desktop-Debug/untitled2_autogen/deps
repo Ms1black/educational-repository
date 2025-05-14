@@ -13,6 +13,8 @@ untitled2_autogen/timestamp: \
 	/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/main.cpp \
 	/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/mainwindow.cpp \
 	/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/mainwindow.h \
+	/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/searchmanager.cpp \
+	/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/searchmanager.h \
 	/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/tablemanager.cpp \
 	/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/tablemanager.h \
 	/usr/include/GL/gl.h \
@@ -807,6 +809,7 @@ untitled2_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QLayout \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMainWindow \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QScrollerProperties \
+	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QTableWidget \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QWidget \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QtWidgets \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QtWidgetsDepends \

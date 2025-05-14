@@ -4,6 +4,8 @@
 #include <QMainWindow>
 #include <QSet>
 
+#include "searchmanager.h"
+
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
@@ -36,5 +38,8 @@ private:
     TableManager *m_tableManager;
     FileManager *m_fileManager;
     ChartManager *m_chartManager;
+    SearchManager *searchManager;
+    QMap<QString, int> columnMap;
+
 };
 #endif // MAINWINDOW_H

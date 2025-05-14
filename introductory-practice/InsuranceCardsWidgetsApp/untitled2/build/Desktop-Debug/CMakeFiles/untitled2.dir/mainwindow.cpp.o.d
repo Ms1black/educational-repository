@@ -389,6 +389,29 @@ CMakeFiles/untitled2.dir/mainwindow.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qbitmap.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabwidget.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QSet \
+  /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/searchmanager.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QObject \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QTableWidget \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtablewidget.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtableview.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractitemview.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractscrollarea.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qframe.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qabstractitemmodel.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qitemselectionmodel.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractitemdelegate.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qstyleoption.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qlocale.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractspinbox.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qvalidator.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qregularexpression.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qslider.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractslider.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qstyle.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabbar.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qrubberband.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QString \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QMap \
   /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/untitled2_autogen/include/./ui_mainwindow.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QVariant \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QApplication \
@@ -400,25 +423,17 @@ CMakeFiles/untitled2.dir/mainwindow.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qcoreapplication_platform.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qguiapplication.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qinputmethod.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qlocale.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qguiapplication_platform.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QHeaderView \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qheaderview.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractitemview.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractscrollarea.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qframe.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qabstractitemmodel.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qitemselectionmodel.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractitemdelegate.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qstyleoption.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractspinbox.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qvalidator.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qregularexpression.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qslider.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractslider.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qstyle.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabbar.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qrubberband.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QLineEdit \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlineedit.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextcursor.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextdocument.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qurl.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextformat.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpen.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextoption.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMenuBar \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmenubar.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmenu.h \
@@ -427,12 +442,8 @@ CMakeFiles/untitled2.dir/mainwindow.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractbutton.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QStatusBar \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qstatusbar.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QTableWidget \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtablewidget.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtableview.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QWidget \
   /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/tablemanager.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QObject \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/QtCharts \
   /usr/include/x86_64-linux-gnu/qt6/QtCharts/QtChartsDepends \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QtCore \
@@ -462,7 +473,6 @@ CMakeFiles/untitled2.dir/mainwindow.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qcborvalue.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qdatetime.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qcborcommon.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qurl.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/quuid.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qcbormap.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qcborstream.h \
@@ -704,11 +714,9 @@ CMakeFiles/untitled2.dir/mainwindow.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qurlquery.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qvarianthash.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QHash \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QString \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qvariantlist.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QList \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qvariantmap.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QMap \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qvector.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qwaitcondition.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QDeadlineTimer \
@@ -735,11 +743,6 @@ CMakeFiles/untitled2.dir/mainwindow.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qglyphrun.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qrawfont.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qfontdatabase.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextcursor.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextdocument.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextformat.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpen.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextoption.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qaccessible.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qaccessible_base.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qaccessiblebridge.h \
@@ -871,7 +874,6 @@ CMakeFiles/untitled2.dir/mainwindow.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qscrollarea.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgroupbox.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qinputdialog.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlineedit.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qitemdelegate.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qitemeditorfactory.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qkeysequenceedit.h \
@@ -1042,7 +1044,6 @@ CMakeFiles/untitled2.dir/mainwindow.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QFileDialog \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMessageBox \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QFormLayout \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QLineEdit \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QDateEdit \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QComboBox \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QDialogButtonBox \

@@ -53,17 +53,24 @@ private slots:
     void onEditSaveButtonClicked();
     void onDateChanged(const QDate &date);
     void onComboChanged(const QString &text);
+    void onHeaderClicked(int logicalIndex);
 
 private:
     void addDateWidget(int row, int column, const QDate &date);
     void addInsuranceTypeCombo(int row, const QString currentType);
     void addEditButton(int row);
+    void updateSortIndicator(int column, Qt::SortOrder order);
+    void sortTable(int column, Qt::SortOrder order);
+    void formatRowData(int row);
+
 
     QTableWidgetItem* createNonEditableItem(const QString& text);
     QTableWidget *m_tableWidget;
     MainWindow *m_mainWindow;
 
     int m_currentlyEditingRow;
+    int m_sortedColumn;
+    Qt::SortOrder m_sortOrder;
 };
 
 #endif // TABLEMANAGER_H

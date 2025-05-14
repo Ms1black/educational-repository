@@ -35,6 +35,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         tablemanager.h tablemanager.cpp
         filemanager.h filemanager.cpp
         chartmanager.h chartmanager.cpp
+        searchmanager.h searchmanager.cpp
 
     )
 else()

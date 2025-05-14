@@ -1027,6 +1027,7 @@ CMakeFiles/untitled2.dir/tablemanager.cpp.o: \
   /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/mainwindow.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMainWindow \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QSet \
+  /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/searchmanager.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QTableWidget \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QHeaderView \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QDateEdit \
@@ -1039,4 +1040,7 @@ CMakeFiles/untitled2.dir/tablemanager.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/QColor \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QAbstractItemView \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QItemSelectionModel \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QModelIndexList
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QModelIndexList \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QSortFilterProxyModel \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/QPainter \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QApplication

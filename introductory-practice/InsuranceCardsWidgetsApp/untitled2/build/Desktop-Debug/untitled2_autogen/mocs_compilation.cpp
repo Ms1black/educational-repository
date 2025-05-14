@@ -2,4 +2,5 @@
 #include "EWIEGA46WW/moc_ChartDialog.cpp"
 #include "EWIEGA46WW/moc_chartmanager.cpp"
 #include "EWIEGA46WW/moc_mainwindow.cpp"
+#include "EWIEGA46WW/moc_searchmanager.cpp"
 #include "EWIEGA46WW/moc_tablemanager.cpp"
