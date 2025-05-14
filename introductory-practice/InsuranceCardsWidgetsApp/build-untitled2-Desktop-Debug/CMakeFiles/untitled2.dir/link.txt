@@ -1,1 +1,0 @@
-/usr/bin/g++ -DQT_QML_DEBUG -g CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.o CMakeFiles/untitled2.dir/main.cpp.o CMakeFiles/untitled2.dir/mainwindow.cpp.o CMakeFiles/untitled2.dir/ChartDialog.cpp.o -o untitled2  /usr/lib64/libQt5Charts.so.5.15.16 /usr/lib64/libQt5Widgets.so.5.15.16 /usr/lib64/libQt5Gui.so.5.15.16 /usr/lib64/libQt5Core.so.5.15.16 
