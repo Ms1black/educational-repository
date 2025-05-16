@@ -1,4 +1,4 @@
-#include "tablemanager.h"
+#include "table_manager.h"
 #include "mainwindow.h"
 
 #include <QTableWidget>
@@ -399,10 +399,10 @@ QStringList TableManager::getRowDataForExport(int row) const
     if (row < 0 || row >= m_tableWidget->rowCount())
         return data;
 
-    QStringList insuredFioParts = m_tableWidget->item(row, Column::InsuredFio)->text().split(' ', Qt::SkipEmptyParts);
+    QStringList insuredFioParts = m_tableWidget->item(row, Column::InsuredFio)->text().split(' ', QString::SkipEmptyParts);
     while (insuredFioParts.size() < 3)
         insuredFioParts << "";
-    QStringList agentFioParts = m_tableWidget->item(row, Column::AgentFio)->text().split(' ', Qt::SkipEmptyParts);
+    QStringList agentFioParts = m_tableWidget->item(row, Column::AgentFio)->text().split(' ', QString::SkipEmptyParts);
     while (agentFioParts.size() < 3)
         agentFioParts << "";
 

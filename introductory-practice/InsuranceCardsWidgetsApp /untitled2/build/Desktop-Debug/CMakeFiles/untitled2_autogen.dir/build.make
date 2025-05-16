@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2
+CMAKE_SOURCE_DIR = "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug
+CMAKE_BINARY_DIR = "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/build/Desktop-Debug"
 
 # Utility rule file for untitled2_autogen.
 
@@ -66,17 +66,11 @@ include CMakeFiles/untitled2_autogen.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/untitled2_autogen.dir/progress.make
 
-CMakeFiles/untitled2_autogen: untitled2_autogen/timestamp
-
-untitled2_autogen/timestamp: /usr/lib/qt6/libexec/moc
-untitled2_autogen/timestamp: /usr/lib/qt6/libexec/uic
-untitled2_autogen/timestamp: CMakeFiles/untitled2_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target untitled2"
-	/usr/bin/cmake -E cmake_autogen /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/untitled2_autogen.dir/AutogenInfo.json Debug
-	/usr/bin/cmake -E touch /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/untitled2_autogen/timestamp
+CMakeFiles/untitled2_autogen:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/build/Desktop-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target untitled2"
+	/usr/bin/cmake -E cmake_autogen "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/build/Desktop-Debug/CMakeFiles/untitled2_autogen.dir/AutogenInfo.json" Debug
 
 untitled2_autogen: CMakeFiles/untitled2_autogen
-untitled2_autogen: untitled2_autogen/timestamp
 untitled2_autogen: CMakeFiles/untitled2_autogen.dir/build.make
 .PHONY : untitled2_autogen
 
@@ -89,6 +83,6 @@ CMakeFiles/untitled2_autogen.dir/clean:
 .PHONY : CMakeFiles/untitled2_autogen.dir/clean
 
 CMakeFiles/untitled2_autogen.dir/depend:
-	cd /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2 /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2 /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/untitled2_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/build/Desktop-Debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2" "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2" "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/build/Desktop-Debug" "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/build/Desktop-Debug" "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/build/Desktop-Debug/CMakeFiles/untitled2_autogen.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/untitled2_autogen.dir/depend
 

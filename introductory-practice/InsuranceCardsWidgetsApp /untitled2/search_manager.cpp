@@ -1,4 +1,4 @@
-#include "searchmanager.h"
+#include "search_manager.h"
 #include <QTableWidgetItem>
 #include <QBrush>
 #include <QColor>
@@ -44,7 +44,7 @@ void SearchManager::search(QTableWidget *table, const QString &text,
         return;
     }
 
-    QStringList parts = inputText.split(':', Qt::SkipEmptyParts);
+    QStringList parts = inputText.split(':', QString::SkipEmptyParts);
     if (parts.size() >= 2)
     {
         param = parts[0].trimmed().toLower();

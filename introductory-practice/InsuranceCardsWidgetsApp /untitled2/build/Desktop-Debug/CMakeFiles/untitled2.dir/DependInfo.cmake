@@ -8,15 +8,14 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "" "untitled2_autogen/timestamp" "custom" "untitled2_autogen/deps"
-  "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/ChartDialog.cpp" "CMakeFiles/untitled2.dir/ChartDialog.cpp.o" "gcc" "CMakeFiles/untitled2.dir/ChartDialog.cpp.o.d"
-  "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/chartmanager.cpp" "CMakeFiles/untitled2.dir/chartmanager.cpp.o" "gcc" "CMakeFiles/untitled2.dir/chartmanager.cpp.o.d"
-  "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/filemanager.cpp" "CMakeFiles/untitled2.dir/filemanager.cpp.o" "gcc" "CMakeFiles/untitled2.dir/filemanager.cpp.o.d"
-  "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/main.cpp" "CMakeFiles/untitled2.dir/main.cpp.o" "gcc" "CMakeFiles/untitled2.dir/main.cpp.o.d"
-  "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/mainwindow.cpp" "CMakeFiles/untitled2.dir/mainwindow.cpp.o" "gcc" "CMakeFiles/untitled2.dir/mainwindow.cpp.o.d"
-  "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/searchmanager.cpp" "CMakeFiles/untitled2.dir/searchmanager.cpp.o" "gcc" "CMakeFiles/untitled2.dir/searchmanager.cpp.o.d"
-  "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/tablemanager.cpp" "CMakeFiles/untitled2.dir/tablemanager.cpp.o" "gcc" "CMakeFiles/untitled2.dir/tablemanager.cpp.o.d"
-  "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/untitled2_autogen/mocs_compilation.cpp" "CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.o.d"
+  "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/chart_manager.cpp" "CMakeFiles/untitled2.dir/chart_manager.cpp.o" "gcc" "CMakeFiles/untitled2.dir/chart_manager.cpp.o.d"
+  "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/chartdialog.cpp" "CMakeFiles/untitled2.dir/chartdialog.cpp.o" "gcc" "CMakeFiles/untitled2.dir/chartdialog.cpp.o.d"
+  "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/file_manager.cpp" "CMakeFiles/untitled2.dir/file_manager.cpp.o" "gcc" "CMakeFiles/untitled2.dir/file_manager.cpp.o.d"
+  "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/main.cpp" "CMakeFiles/untitled2.dir/main.cpp.o" "gcc" "CMakeFiles/untitled2.dir/main.cpp.o.d"
+  "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/mainwindow.cpp" "CMakeFiles/untitled2.dir/mainwindow.cpp.o" "gcc" "CMakeFiles/untitled2.dir/mainwindow.cpp.o.d"
+  "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/search_manager.cpp" "CMakeFiles/untitled2.dir/search_manager.cpp.o" "gcc" "CMakeFiles/untitled2.dir/search_manager.cpp.o.d"
+  "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/table_manager.cpp" "CMakeFiles/untitled2.dir/table_manager.cpp.o" "gcc" "CMakeFiles/untitled2.dir/table_manager.cpp.o.d"
+  "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/build/Desktop-Debug/untitled2_autogen/mocs_compilation.cpp" "CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

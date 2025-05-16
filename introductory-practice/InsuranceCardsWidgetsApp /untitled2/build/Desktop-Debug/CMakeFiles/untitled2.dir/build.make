@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2
+CMAKE_SOURCE_DIR = "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug
+CMAKE_BINARY_DIR = "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/build/Desktop-Debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/untitled2.dir/depend.make
@@ -69,135 +69,128 @@ include CMakeFiles/untitled2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/untitled2.dir/flags.make
 
-untitled2_autogen/timestamp: /usr/lib/qt6/libexec/moc
-untitled2_autogen/timestamp: /usr/lib/qt6/libexec/uic
-untitled2_autogen/timestamp: CMakeFiles/untitled2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target untitled2"
-	/usr/bin/cmake -E cmake_autogen /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/untitled2_autogen.dir/AutogenInfo.json Debug
-	/usr/bin/cmake -E touch /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/untitled2_autogen/timestamp
-
 CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.o: CMakeFiles/untitled2.dir/flags.make
 CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.o: untitled2_autogen/mocs_compilation.cpp
 CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.o: CMakeFiles/untitled2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.o"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.o -MF CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.o -c /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/untitled2_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/build/Desktop-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.o"
+	/usr/bin/x86_64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.o -MF CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.o -c "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/build/Desktop-Debug/untitled2_autogen/mocs_compilation.cpp"
 
 CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.i"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/untitled2_autogen/mocs_compilation.cpp > CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.i
+	/usr/bin/x86_64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/build/Desktop-Debug/untitled2_autogen/mocs_compilation.cpp" > CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.s"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/untitled2_autogen/mocs_compilation.cpp -o CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.s
+	/usr/bin/x86_64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/build/Desktop-Debug/untitled2_autogen/mocs_compilation.cpp" -o CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/untitled2.dir/main.cpp.o: CMakeFiles/untitled2.dir/flags.make
-CMakeFiles/untitled2.dir/main.cpp.o: /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/main.cpp
+CMakeFiles/untitled2.dir/main.cpp.o: /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp\ /untitled2/main.cpp
 CMakeFiles/untitled2.dir/main.cpp.o: CMakeFiles/untitled2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/untitled2.dir/main.cpp.o"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled2.dir/main.cpp.o -MF CMakeFiles/untitled2.dir/main.cpp.o.d -o CMakeFiles/untitled2.dir/main.cpp.o -c /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/build/Desktop-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled2.dir/main.cpp.o"
+	/usr/bin/x86_64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled2.dir/main.cpp.o -MF CMakeFiles/untitled2.dir/main.cpp.o.d -o CMakeFiles/untitled2.dir/main.cpp.o -c "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/main.cpp"
 
 CMakeFiles/untitled2.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/untitled2.dir/main.cpp.i"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/main.cpp > CMakeFiles/untitled2.dir/main.cpp.i
+	/usr/bin/x86_64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/main.cpp" > CMakeFiles/untitled2.dir/main.cpp.i
 
 CMakeFiles/untitled2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/untitled2.dir/main.cpp.s"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/main.cpp -o CMakeFiles/untitled2.dir/main.cpp.s
+	/usr/bin/x86_64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/main.cpp" -o CMakeFiles/untitled2.dir/main.cpp.s
 
 CMakeFiles/untitled2.dir/mainwindow.cpp.o: CMakeFiles/untitled2.dir/flags.make
-CMakeFiles/untitled2.dir/mainwindow.cpp.o: /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/mainwindow.cpp
+CMakeFiles/untitled2.dir/mainwindow.cpp.o: /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp\ /untitled2/mainwindow.cpp
 CMakeFiles/untitled2.dir/mainwindow.cpp.o: CMakeFiles/untitled2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/untitled2.dir/mainwindow.cpp.o"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled2.dir/mainwindow.cpp.o -MF CMakeFiles/untitled2.dir/mainwindow.cpp.o.d -o CMakeFiles/untitled2.dir/mainwindow.cpp.o -c /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/mainwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/build/Desktop-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/untitled2.dir/mainwindow.cpp.o"
+	/usr/bin/x86_64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled2.dir/mainwindow.cpp.o -MF CMakeFiles/untitled2.dir/mainwindow.cpp.o.d -o CMakeFiles/untitled2.dir/mainwindow.cpp.o -c "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/mainwindow.cpp"
 
 CMakeFiles/untitled2.dir/mainwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/untitled2.dir/mainwindow.cpp.i"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/mainwindow.cpp > CMakeFiles/untitled2.dir/mainwindow.cpp.i
+	/usr/bin/x86_64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/mainwindow.cpp" > CMakeFiles/untitled2.dir/mainwindow.cpp.i
 
 CMakeFiles/untitled2.dir/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/untitled2.dir/mainwindow.cpp.s"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/mainwindow.cpp -o CMakeFiles/untitled2.dir/mainwindow.cpp.s
+	/usr/bin/x86_64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/mainwindow.cpp" -o CMakeFiles/untitled2.dir/mainwindow.cpp.s
 
-CMakeFiles/untitled2.dir/ChartDialog.cpp.o: CMakeFiles/untitled2.dir/flags.make
-CMakeFiles/untitled2.dir/ChartDialog.cpp.o: /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/ChartDialog.cpp
-CMakeFiles/untitled2.dir/ChartDialog.cpp.o: CMakeFiles/untitled2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/untitled2.dir/ChartDialog.cpp.o"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled2.dir/ChartDialog.cpp.o -MF CMakeFiles/untitled2.dir/ChartDialog.cpp.o.d -o CMakeFiles/untitled2.dir/ChartDialog.cpp.o -c /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/ChartDialog.cpp
+CMakeFiles/untitled2.dir/chartdialog.cpp.o: CMakeFiles/untitled2.dir/flags.make
+CMakeFiles/untitled2.dir/chartdialog.cpp.o: /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp\ /untitled2/chartdialog.cpp
+CMakeFiles/untitled2.dir/chartdialog.cpp.o: CMakeFiles/untitled2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/build/Desktop-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/untitled2.dir/chartdialog.cpp.o"
+	/usr/bin/x86_64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled2.dir/chartdialog.cpp.o -MF CMakeFiles/untitled2.dir/chartdialog.cpp.o.d -o CMakeFiles/untitled2.dir/chartdialog.cpp.o -c "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/chartdialog.cpp"
 
-CMakeFiles/untitled2.dir/ChartDialog.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/untitled2.dir/ChartDialog.cpp.i"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/ChartDialog.cpp > CMakeFiles/untitled2.dir/ChartDialog.cpp.i
+CMakeFiles/untitled2.dir/chartdialog.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/untitled2.dir/chartdialog.cpp.i"
+	/usr/bin/x86_64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/chartdialog.cpp" > CMakeFiles/untitled2.dir/chartdialog.cpp.i
 
-CMakeFiles/untitled2.dir/ChartDialog.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/untitled2.dir/ChartDialog.cpp.s"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/ChartDialog.cpp -o CMakeFiles/untitled2.dir/ChartDialog.cpp.s
+CMakeFiles/untitled2.dir/chartdialog.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/untitled2.dir/chartdialog.cpp.s"
+	/usr/bin/x86_64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/chartdialog.cpp" -o CMakeFiles/untitled2.dir/chartdialog.cpp.s
 
-CMakeFiles/untitled2.dir/tablemanager.cpp.o: CMakeFiles/untitled2.dir/flags.make
-CMakeFiles/untitled2.dir/tablemanager.cpp.o: /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/tablemanager.cpp
-CMakeFiles/untitled2.dir/tablemanager.cpp.o: CMakeFiles/untitled2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/untitled2.dir/tablemanager.cpp.o"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled2.dir/tablemanager.cpp.o -MF CMakeFiles/untitled2.dir/tablemanager.cpp.o.d -o CMakeFiles/untitled2.dir/tablemanager.cpp.o -c /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/tablemanager.cpp
+CMakeFiles/untitled2.dir/table_manager.cpp.o: CMakeFiles/untitled2.dir/flags.make
+CMakeFiles/untitled2.dir/table_manager.cpp.o: /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp\ /untitled2/table_manager.cpp
+CMakeFiles/untitled2.dir/table_manager.cpp.o: CMakeFiles/untitled2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/build/Desktop-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/untitled2.dir/table_manager.cpp.o"
+	/usr/bin/x86_64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled2.dir/table_manager.cpp.o -MF CMakeFiles/untitled2.dir/table_manager.cpp.o.d -o CMakeFiles/untitled2.dir/table_manager.cpp.o -c "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/table_manager.cpp"
 
-CMakeFiles/untitled2.dir/tablemanager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/untitled2.dir/tablemanager.cpp.i"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/tablemanager.cpp > CMakeFiles/untitled2.dir/tablemanager.cpp.i
+CMakeFiles/untitled2.dir/table_manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/untitled2.dir/table_manager.cpp.i"
+	/usr/bin/x86_64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/table_manager.cpp" > CMakeFiles/untitled2.dir/table_manager.cpp.i
 
-CMakeFiles/untitled2.dir/tablemanager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/untitled2.dir/tablemanager.cpp.s"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/tablemanager.cpp -o CMakeFiles/untitled2.dir/tablemanager.cpp.s
+CMakeFiles/untitled2.dir/table_manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/untitled2.dir/table_manager.cpp.s"
+	/usr/bin/x86_64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/table_manager.cpp" -o CMakeFiles/untitled2.dir/table_manager.cpp.s
 
-CMakeFiles/untitled2.dir/filemanager.cpp.o: CMakeFiles/untitled2.dir/flags.make
-CMakeFiles/untitled2.dir/filemanager.cpp.o: /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/filemanager.cpp
-CMakeFiles/untitled2.dir/filemanager.cpp.o: CMakeFiles/untitled2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/untitled2.dir/filemanager.cpp.o"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled2.dir/filemanager.cpp.o -MF CMakeFiles/untitled2.dir/filemanager.cpp.o.d -o CMakeFiles/untitled2.dir/filemanager.cpp.o -c /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/filemanager.cpp
+CMakeFiles/untitled2.dir/file_manager.cpp.o: CMakeFiles/untitled2.dir/flags.make
+CMakeFiles/untitled2.dir/file_manager.cpp.o: /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp\ /untitled2/file_manager.cpp
+CMakeFiles/untitled2.dir/file_manager.cpp.o: CMakeFiles/untitled2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/build/Desktop-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/untitled2.dir/file_manager.cpp.o"
+	/usr/bin/x86_64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled2.dir/file_manager.cpp.o -MF CMakeFiles/untitled2.dir/file_manager.cpp.o.d -o CMakeFiles/untitled2.dir/file_manager.cpp.o -c "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/file_manager.cpp"
 
-CMakeFiles/untitled2.dir/filemanager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/untitled2.dir/filemanager.cpp.i"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/filemanager.cpp > CMakeFiles/untitled2.dir/filemanager.cpp.i
+CMakeFiles/untitled2.dir/file_manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/untitled2.dir/file_manager.cpp.i"
+	/usr/bin/x86_64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/file_manager.cpp" > CMakeFiles/untitled2.dir/file_manager.cpp.i
 
-CMakeFiles/untitled2.dir/filemanager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/untitled2.dir/filemanager.cpp.s"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/filemanager.cpp -o CMakeFiles/untitled2.dir/filemanager.cpp.s
+CMakeFiles/untitled2.dir/file_manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/untitled2.dir/file_manager.cpp.s"
+	/usr/bin/x86_64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/file_manager.cpp" -o CMakeFiles/untitled2.dir/file_manager.cpp.s
 
-CMakeFiles/untitled2.dir/chartmanager.cpp.o: CMakeFiles/untitled2.dir/flags.make
-CMakeFiles/untitled2.dir/chartmanager.cpp.o: /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/chartmanager.cpp
-CMakeFiles/untitled2.dir/chartmanager.cpp.o: CMakeFiles/untitled2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/untitled2.dir/chartmanager.cpp.o"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled2.dir/chartmanager.cpp.o -MF CMakeFiles/untitled2.dir/chartmanager.cpp.o.d -o CMakeFiles/untitled2.dir/chartmanager.cpp.o -c /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/chartmanager.cpp
+CMakeFiles/untitled2.dir/chart_manager.cpp.o: CMakeFiles/untitled2.dir/flags.make
+CMakeFiles/untitled2.dir/chart_manager.cpp.o: /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp\ /untitled2/chart_manager.cpp
+CMakeFiles/untitled2.dir/chart_manager.cpp.o: CMakeFiles/untitled2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/build/Desktop-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/untitled2.dir/chart_manager.cpp.o"
+	/usr/bin/x86_64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled2.dir/chart_manager.cpp.o -MF CMakeFiles/untitled2.dir/chart_manager.cpp.o.d -o CMakeFiles/untitled2.dir/chart_manager.cpp.o -c "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/chart_manager.cpp"
 
-CMakeFiles/untitled2.dir/chartmanager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/untitled2.dir/chartmanager.cpp.i"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/chartmanager.cpp > CMakeFiles/untitled2.dir/chartmanager.cpp.i
+CMakeFiles/untitled2.dir/chart_manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/untitled2.dir/chart_manager.cpp.i"
+	/usr/bin/x86_64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/chart_manager.cpp" > CMakeFiles/untitled2.dir/chart_manager.cpp.i
 
-CMakeFiles/untitled2.dir/chartmanager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/untitled2.dir/chartmanager.cpp.s"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/chartmanager.cpp -o CMakeFiles/untitled2.dir/chartmanager.cpp.s
+CMakeFiles/untitled2.dir/chart_manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/untitled2.dir/chart_manager.cpp.s"
+	/usr/bin/x86_64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/chart_manager.cpp" -o CMakeFiles/untitled2.dir/chart_manager.cpp.s
 
-CMakeFiles/untitled2.dir/searchmanager.cpp.o: CMakeFiles/untitled2.dir/flags.make
-CMakeFiles/untitled2.dir/searchmanager.cpp.o: /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/searchmanager.cpp
-CMakeFiles/untitled2.dir/searchmanager.cpp.o: CMakeFiles/untitled2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/untitled2.dir/searchmanager.cpp.o"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled2.dir/searchmanager.cpp.o -MF CMakeFiles/untitled2.dir/searchmanager.cpp.o.d -o CMakeFiles/untitled2.dir/searchmanager.cpp.o -c /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/searchmanager.cpp
+CMakeFiles/untitled2.dir/search_manager.cpp.o: CMakeFiles/untitled2.dir/flags.make
+CMakeFiles/untitled2.dir/search_manager.cpp.o: /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp\ /untitled2/search_manager.cpp
+CMakeFiles/untitled2.dir/search_manager.cpp.o: CMakeFiles/untitled2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/build/Desktop-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/untitled2.dir/search_manager.cpp.o"
+	/usr/bin/x86_64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled2.dir/search_manager.cpp.o -MF CMakeFiles/untitled2.dir/search_manager.cpp.o.d -o CMakeFiles/untitled2.dir/search_manager.cpp.o -c "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/search_manager.cpp"
 
-CMakeFiles/untitled2.dir/searchmanager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/untitled2.dir/searchmanager.cpp.i"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/searchmanager.cpp > CMakeFiles/untitled2.dir/searchmanager.cpp.i
+CMakeFiles/untitled2.dir/search_manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/untitled2.dir/search_manager.cpp.i"
+	/usr/bin/x86_64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/search_manager.cpp" > CMakeFiles/untitled2.dir/search_manager.cpp.i
 
-CMakeFiles/untitled2.dir/searchmanager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/untitled2.dir/searchmanager.cpp.s"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/searchmanager.cpp -o CMakeFiles/untitled2.dir/searchmanager.cpp.s
+CMakeFiles/untitled2.dir/search_manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/untitled2.dir/search_manager.cpp.s"
+	/usr/bin/x86_64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/search_manager.cpp" -o CMakeFiles/untitled2.dir/search_manager.cpp.s
 
 # Object files for target untitled2
 untitled2_OBJECTS = \
 "CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/untitled2.dir/main.cpp.o" \
 "CMakeFiles/untitled2.dir/mainwindow.cpp.o" \
-"CMakeFiles/untitled2.dir/ChartDialog.cpp.o" \
-"CMakeFiles/untitled2.dir/tablemanager.cpp.o" \
-"CMakeFiles/untitled2.dir/filemanager.cpp.o" \
-"CMakeFiles/untitled2.dir/chartmanager.cpp.o" \
-"CMakeFiles/untitled2.dir/searchmanager.cpp.o"
+"CMakeFiles/untitled2.dir/chartdialog.cpp.o" \
+"CMakeFiles/untitled2.dir/table_manager.cpp.o" \
+"CMakeFiles/untitled2.dir/file_manager.cpp.o" \
+"CMakeFiles/untitled2.dir/chart_manager.cpp.o" \
+"CMakeFiles/untitled2.dir/search_manager.cpp.o"
 
 # External object files for target untitled2
 untitled2_EXTERNAL_OBJECTS =
@@ -205,22 +198,18 @@ untitled2_EXTERNAL_OBJECTS =
 untitled2: CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.o
 untitled2: CMakeFiles/untitled2.dir/main.cpp.o
 untitled2: CMakeFiles/untitled2.dir/mainwindow.cpp.o
-untitled2: CMakeFiles/untitled2.dir/ChartDialog.cpp.o
-untitled2: CMakeFiles/untitled2.dir/tablemanager.cpp.o
-untitled2: CMakeFiles/untitled2.dir/filemanager.cpp.o
-untitled2: CMakeFiles/untitled2.dir/chartmanager.cpp.o
-untitled2: CMakeFiles/untitled2.dir/searchmanager.cpp.o
+untitled2: CMakeFiles/untitled2.dir/chartdialog.cpp.o
+untitled2: CMakeFiles/untitled2.dir/table_manager.cpp.o
+untitled2: CMakeFiles/untitled2.dir/file_manager.cpp.o
+untitled2: CMakeFiles/untitled2.dir/chart_manager.cpp.o
+untitled2: CMakeFiles/untitled2.dir/search_manager.cpp.o
 untitled2: CMakeFiles/untitled2.dir/build.make
-untitled2: /usr/lib/x86_64-linux-gnu/libQt6Charts.so.6.4.2
-untitled2: /usr/lib/x86_64-linux-gnu/libQt6OpenGLWidgets.so.6.4.2
-untitled2: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
-untitled2: /usr/lib/x86_64-linux-gnu/libQt6OpenGL.so.6.4.2
-untitled2: /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.4.2
-untitled2: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
-untitled2: /usr/lib/x86_64-linux-gnu/libGLX.so
-untitled2: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+untitled2: /home/liza/Qt/5.12.12/gcc_64/lib/libQt5Charts.so.5.12.12
+untitled2: /home/liza/Qt/5.12.12/gcc_64/lib/libQt5Widgets.so.5.12.12
+untitled2: /home/liza/Qt/5.12.12/gcc_64/lib/libQt5Gui.so.5.12.12
+untitled2: /home/liza/Qt/5.12.12/gcc_64/lib/libQt5Core.so.5.12.12
 untitled2: CMakeFiles/untitled2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable untitled2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/build/Desktop-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable untitled2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/untitled2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -231,7 +220,7 @@ CMakeFiles/untitled2.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/untitled2.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/untitled2.dir/clean
 
-CMakeFiles/untitled2.dir/depend: untitled2_autogen/timestamp
-	cd /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2 /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2 /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/CMakeFiles/untitled2.dir/DependInfo.cmake "--color=$(COLOR)"
+CMakeFiles/untitled2.dir/depend:
+	cd "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/build/Desktop-Debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2" "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2" "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/build/Desktop-Debug" "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/build/Desktop-Debug" "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/build/Desktop-Debug/CMakeFiles/untitled2.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/untitled2.dir/depend
 

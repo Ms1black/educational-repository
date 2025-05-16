@@ -1,10 +1,10 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
-#include "tablemanager.h"
-#include "filemanager.h"
-#include "chartmanager.h"
-#include "ChartDialog.h"
-#include "searchmanager.h"
+#include "table_manager.h"
+#include "file_manager.h"
+#include "chart_manager.h"
+#include "chartdialog.h".h"
+#include "search_manager.h"
 
 #include <QFileDialog>
 #include <QMessageBox>
@@ -185,7 +185,7 @@ void MainWindow::on_addButton_clicked()
         QString errorMsg;
 
         QString insuredFioRaw = insuredFioEdit->text().trimmed();
-        QStringList insuredParts = insuredFioRaw.split(' ', Qt::SkipEmptyParts);
+        QStringList insuredParts = insuredFioRaw.split(' ', QString::SkipEmptyParts);
         if (insuredFioRaw.isEmpty())
         {
             errorMsg += "Не указано ФИО Застрахованного.\n";
@@ -196,7 +196,7 @@ void MainWindow::on_addButton_clicked()
         }
 
         QString agentFioRaw = agentFioEdit->text().trimmed();
-        QStringList agentParts = agentFioRaw.split(' ', Qt::SkipEmptyParts);
+        QStringList agentParts = agentFioRaw.split(' ', QString::SkipEmptyParts);
         if (agentFioRaw.isEmpty())
         {
             errorMsg += "Не указано ФИО Агента.\n";
@@ -326,7 +326,7 @@ bool MainWindow::validateRowData(int row)
     if (auto *de = qobject_cast<QDateEdit *>(table->cellWidget(row, Column::EndDate)))
         endDate = de->date();
 
-    QStringList insuredParts = insuredFioStr.split(' ', Qt::SkipEmptyParts);
+    QStringList insuredParts = insuredFioStr.split(' ', QString::SkipEmptyParts);
     if (insuredFioStr.isEmpty())
     {
         errorMsg += "ФИО Застрахованного: не заполнено.\n";
@@ -338,7 +338,7 @@ bool MainWindow::validateRowData(int row)
         isValid = false;
     }
 
-    QStringList agentParts = agentFioStr.split(' ', Qt::SkipEmptyParts);
+    QStringList agentParts = agentFioStr.split(' ', QString::SkipEmptyParts);
     if (agentFioStr.isEmpty())
     {
         errorMsg += "ФИО Агента: не заполнено.\n";

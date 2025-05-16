@@ -1,5 +1,5 @@
-#include "filemanager.h"
-#include "tablemanager.h"
+#include "file_manager.h"
+#include "table_manager.h"
 #include <QFile>
 #include <QTextStream>
 #include <QMessageBox>
@@ -29,7 +29,7 @@ bool FileManager::loadDataFromFile(const QString &fileName, TableManager *tableM
         if (line.isEmpty())
             continue;
 
-        QStringList fields = line.split(QRegularExpression("\\s+"), Qt::SkipEmptyParts);
+        QStringList fields = line.split(QRegularExpression("\\s+"), QString::SkipEmptyParts);
         if (fields.size() >= 12)
         {
             tableManager->addTableRow(row, fields, false);

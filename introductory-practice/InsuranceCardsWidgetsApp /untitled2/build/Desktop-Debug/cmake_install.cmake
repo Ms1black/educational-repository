@@ -1,4 +1,4 @@
-# Install script for directory: /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2
+# Install script for directory: /home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/llvm-objdump-18")
+  set(CMAKE_OBJDUMP "/usr/bin/x86_64-linux-gnu-objdump")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp/untitled2/build/Desktop-Debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/liza/educational-repository/introductory-practice/InsuranceCardsWidgetsApp /untitled2/build/Desktop-Debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

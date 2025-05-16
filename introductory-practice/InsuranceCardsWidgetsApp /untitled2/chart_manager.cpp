@@ -1,4 +1,4 @@
-#include "chartmanager.h"
+#include "chart_manager.h"
 #include <QTableWidget>
 #include <QComboBox>
 #include <QVBoxLayout>
