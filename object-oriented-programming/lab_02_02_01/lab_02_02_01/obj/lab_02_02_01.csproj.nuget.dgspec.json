@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/liza/Рабочий стол/educational-repository/lab_02_02_01/lab_02_02_01/lab_02_02_01.csproj": {}
+    "/home/liza/educational-repository/object-oriented-programming/lab_02_02_01/lab_02_02_01/lab_02_02_01.csproj": {}
   },
   "projects": {
-    "/home/liza/Рабочий стол/educational-repository/lab_02_02_01/lab_02_02_01/lab_02_02_01.csproj": {
+    "/home/liza/educational-repository/object-oriented-programming/lab_02_02_01/lab_02_02_01/lab_02_02_01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/liza/Рабочий стол/educational-repository/lab_02_02_01/lab_02_02_01/lab_02_02_01.csproj",
+        "projectUniqueName": "/home/liza/educational-repository/object-oriented-programming/lab_02_02_01/lab_02_02_01/lab_02_02_01.csproj",
         "projectName": "lab_02_02_01",
-        "projectPath": "/home/liza/Рабочий стол/educational-repository/lab_02_02_01/lab_02_02_01/lab_02_02_01.csproj",
+        "projectPath": "/home/liza/educational-repository/object-oriented-programming/lab_02_02_01/lab_02_02_01/lab_02_02_01.csproj",
         "packagesPath": "/home/liza/.nuget/packages/",
-        "outputPath": "/home/liza/Рабочий стол/educational-repository/lab_02_02_01/lab_02_02_01/obj/",
+        "outputPath": "/home/liza/educational-repository/object-oriented-programming/lab_02_02_01/lab_02_02_01/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/liza/.nuget/NuGet/NuGet.Config"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.407/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.408/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

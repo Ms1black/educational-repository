@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = lab_02_01_02
-build_property.ProjectDir = /home/liza/Рабочий стол/educational-repository/lab_02_01_02/lab_02_01_02/
+build_property.ProjectDir = /home/liza/educational-repository/object-oriented-programming/lab_02_01_02/lab_02_01_02/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -1,0 +1,3 @@
+Linear:a=2;b=3
+Quadratic:a=1;b=-4;c=4
+Hyperbola:k=5;d=-1

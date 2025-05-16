@@ -1,0 +1,15 @@
+/home/liza/educational-repository/object-oriented-programming/lab_02_02_02/lab_02_02_02/obj/Debug/net8.0/lab_02_02_02.GeneratedMSBuildEditorConfig.editorconfig
+/home/liza/educational-repository/object-oriented-programming/lab_02_02_02/lab_02_02_02/obj/Debug/net8.0/lab_02_02_02.AssemblyInfoInputs.cache
+/home/liza/educational-repository/object-oriented-programming/lab_02_02_02/lab_02_02_02/obj/Debug/net8.0/lab_02_02_02.AssemblyInfo.cs
+/home/liza/educational-repository/object-oriented-programming/lab_02_02_02/lab_02_02_02/obj/Debug/net8.0/lab_02_02_02.csproj.CoreCompileInputs.cache
+/home/liza/educational-repository/object-oriented-programming/lab_02_02_02/lab_02_02_02/obj/Debug/net8.0/lab_02_02_02.sourcelink.json
+/home/liza/educational-repository/object-oriented-programming/lab_02_02_02/lab_02_02_02/bin/Debug/net8.0/lab_02_02_02
+/home/liza/educational-repository/object-oriented-programming/lab_02_02_02/lab_02_02_02/bin/Debug/net8.0/lab_02_02_02.deps.json
+/home/liza/educational-repository/object-oriented-programming/lab_02_02_02/lab_02_02_02/bin/Debug/net8.0/lab_02_02_02.runtimeconfig.json
+/home/liza/educational-repository/object-oriented-programming/lab_02_02_02/lab_02_02_02/bin/Debug/net8.0/lab_02_02_02.dll
+/home/liza/educational-repository/object-oriented-programming/lab_02_02_02/lab_02_02_02/bin/Debug/net8.0/lab_02_02_02.pdb
+/home/liza/educational-repository/object-oriented-programming/lab_02_02_02/lab_02_02_02/obj/Debug/net8.0/lab_02_02_02.dll
+/home/liza/educational-repository/object-oriented-programming/lab_02_02_02/lab_02_02_02/obj/Debug/net8.0/refint/lab_02_02_02.dll
+/home/liza/educational-repository/object-oriented-programming/lab_02_02_02/lab_02_02_02/obj/Debug/net8.0/lab_02_02_02.pdb
+/home/liza/educational-repository/object-oriented-programming/lab_02_02_02/lab_02_02_02/obj/Debug/net8.0/lab_02_02_02.genruntimeconfig.cache
+/home/liza/educational-repository/object-oriented-programming/lab_02_02_02/lab_02_02_02/obj/Debug/net8.0/ref/lab_02_02_02.dll
