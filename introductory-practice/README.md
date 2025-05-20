@@ -41,3 +41,5 @@ chmod +x build.sh
 * список раскрывающийся
 * элемент календарь 
 * сортировки сос мыслом
+
+https://www.figma.com/slides/uu6fgaijj0bO36YTGYyHRp/Untitled?node-id=1-1788&t=kySBtWfAP4xGxtRK-1
