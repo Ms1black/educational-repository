@@ -25,17 +25,18 @@ std::istream& operator>>(std::istream& in, Track& track) {
     return in;
 }
 
-void Track::display(std::ostream& os) const {
-    std::string secs_str = std::to_string(during_track_sec);
-    if (during_track_sec < 10) {
+std::ostream& operator<<(std::ostream& os, const Track& track) { 
+    std::string secs_str = std::to_string(track.during_track_sec); 
+    if (track.during_track_sec < 10) {
         secs_str = "0" + secs_str;
     }
-    std::string duration_str = std::to_string(during_track_min) + ":" + secs_str;
+    std::string duration_str = std::to_string(track.during_track_min) + ":" + secs_str;
 
-    os << textalign(track_name.c_str(), LEFT, 30)
-       << textalign(track_genre.c_str(), LEFT, 35)
-       << textalign(artist_name.c_str(), LEFT, 30)
+    os << textalign(track.track_name.c_str(), LEFT, 30) 
+       << textalign(track.track_genre.c_str(), LEFT, 35) 
+       << textalign(track.artist_name.c_str(), LEFT, 30)
        << textalign(duration_str.c_str(), CENTER, 15) 
-       << textalign((std::to_string(age_limit_track) + "+").c_str(), RIGHT, 15) 
+       << textalign((std::to_string(track.age_limit_track) + "+").c_str(), RIGHT, 15) 
        << "\n";
+    return os;
 }

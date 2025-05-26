@@ -27,10 +27,23 @@ void MusicManager::displayAllTracks() {
 }
 
 void MusicManager::displayAllTracks(const std::string& genre_filter) {
+    bool found = false;
+    std::cout << "\n\U0001F3B5 Список треков по жанру '" << genre_filter << "':\n\n";
+    std::cout << textalign("Трек", LEFT, 30)
+              << textalign("Жанр", LEFT, 35)
+              << textalign("Исполнитель", LEFT, 30)
+              << textalign("Длительность", CENTER, 15)
+              << textalign("Возр. огр.", RIGHT, 15) << "\n";
+    std::cout << "------------------------------------------------------------------------------------------------------------------------------" << std::endl;
+
     for (int i = 0; i < track_list.size(); ++i) {
         if (track_list[i].track_genre == genre_filter) {
             std::cout << track_list[i];
+            found = true;
         }
+    }
+    if (!found) {
+        std::cout << textalign("Нет треков в этом жанре.", LEFT, 125) << "\n";
     }
 }
 
@@ -38,8 +51,9 @@ void MusicManager::removeTrack(int track_id) {
     if (track_id >= 0 && track_id < track_list.size()) {
         std::cout << "Удаление трека: " << track_list[track_id].track_name << "\n";
         track_list.removeAt(track_id);
+        std::cout << "Трек успешно удален.\n";
     } else {
-        std::cout << "Ошибка. Неверный индекс!";
+        std::cout << "Ошибка. Неверный индекс трека!\n";
     }
 }
 

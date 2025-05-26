@@ -15,6 +15,7 @@ class Artist : public User {
         using User::User;
 
         std::string getArtistName() const { return first_name + " " + last_name; }
+        std::string getUserType() const override { return "artist"; } 
 
         void displayInfoAboutUser() override {
         std::cout << "Исполнитель: " << getArtistName() << std::endl;

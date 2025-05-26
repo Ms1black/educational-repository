@@ -1,30 +1,23 @@
-    #ifndef MUSIC_MANAGER_H
-    #define MUSIC_MANAGER_H
+#ifndef MUSIC_MANAGER_H
+#define MUSIC_MANAGER_H
 
-    #include <iostream>
-    #include <string>
-    #include "../track_class/track.h"
-    #include "../artist_class/artist.h"
-    #include "../vector_class/vector_class.h"
+#include <string>
+#include "../vector_class/vector_class.h"
+#include "../track_class/track.h"
 
+class MusicManager {
+private:
+    MyVector<Track> track_list;
 
-    class MusicManager {
+public:
+    MusicManager();
 
-    private:
+    void displayAllTracks();
+    void displayAllTracks(const std::string& genre_filter);
+    void removeTrack(int track_id);
+    void addTrack(const Track& track);
+    const MyVector<Track>& getAllTracks() const { return track_list; } // Новый метод для отчетов
+    void setTracks(const MyVector<Track>& tracks) { track_list = tracks; } // Новый метод для загрузки состояния
+};
 
-            MyVector<Track> track_list;
-            int tracks_count;
-
-        public: 
-
-        MusicManager();
-
-        void displayAllTracks();
-        void displayAllTracks(const std::string& genre_filter);
-        void addTrack(const Track& track);
-        void removeTrack(int track_id);
-
-    };
-
-
-    #endif
+#endif

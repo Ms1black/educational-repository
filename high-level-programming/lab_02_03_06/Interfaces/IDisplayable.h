@@ -1,13 +1,12 @@
-#pragma once
+#ifndef IDISPLAYABLE_H
+#define IDISPLAYABLE_H
+
 #include <iostream>
 
 class IDisplayable {
 public:
-    virtual ~IDisplayable() = default; 
-    virtual void display(std::ostream& os) const = 0; 
+    virtual void display(std::ostream& os) const = 0;
+    virtual ~IDisplayable() = default;
 };
 
-inline std::ostream& operator<<(std::ostream& os, const IDisplayable& obj) {
-    obj.display(os);
-    return os;
-}
+#endif // IDISPLAYABLE_H

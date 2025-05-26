@@ -3,20 +3,21 @@
 
 #include <iostream>
 #include <string>
-#include "../../Interfaces/IDisplayable.h"
 
-class Track : public IDisplayable {
+class Track {
 public:
-    std::string track_name, track_genre;
+    std::string track_name;
+    std::string track_genre;
     std::string artist_name;
-    int during_track_min, during_track_sec, age_limit_track;
+    int during_track_min;
+    int during_track_sec;
+    int age_limit_track;
 
-    Track() : during_track_min(0), during_track_sec(0), age_limit_track(0) {}
-
-    void display(std::ostream& os) const override;
-    
+    friend std::ostream& operator<<(std::ostream& os, const Track& track);
     friend std::istream& operator>>(std::istream& in, Track& track);
 
-    };
+};
+
+std::ostream& operator<<(std::ostream& os, const Track& track);
 
 #endif
