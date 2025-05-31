@@ -13,7 +13,6 @@
 #include "data_persistance_class/data_persistance.h"
 #include "user_manager_class/user_manager.h"
 
-// Цветовые коды для меню
 #define RESET   "\033[0m"
 #define RED     "\033[31m"
 #define GREEN   "\033[32m"
@@ -23,7 +22,6 @@
 #define CYAN    "\033[36m"
 #define BOLD    "\033[1m"
 
-// Коды ошибок
 enum ErrorCode {
     SUCCESS = 0,
     ERROR_INVALID_INPUT,
@@ -341,7 +339,7 @@ void adminMenu(Admin* admin, MusicManager& musicManager) {
 }
 
 int main() {
-    // Установка локали
+    
     try {
         std::locale::global(std::locale("ru_RU.UTF-8"));
     } catch (const std::runtime_error& e) {
@@ -355,7 +353,6 @@ int main() {
     UserManager userManager;
     User* currentUser = nullptr;
 
-    // Загрузка данных
     try {
         musicManager.setTracks(DataPersistance::loadTracks("tracks.txt"));
         MyVector<User*> loadedUsers = DataPersistance::loadUsers("users.txt");
@@ -370,7 +367,6 @@ int main() {
         waitForEnter();
     }
 
-    // Главный цикл
     while (true) {
         if (!currentUser) {
             displayMainMenu();

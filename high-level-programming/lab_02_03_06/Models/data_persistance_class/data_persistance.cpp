@@ -23,34 +23,36 @@ void DataPersistance::saveTracks(const MyVector<Track>& tracks, const std::strin
 MyVector<Track> DataPersistance::loadTracks(const std::string& filename) {
     MyVector<Track> tracks;
     std::ifstream inFile(filename);
+    
     if (!inFile.is_open()) {
-        std::cerr << "Предупреждение: Файл треков не найден или не может быть открыт: " << filename << std::endl;
+        std::cerr << "Файл " << filename << " не найден. Будет создан новый." << std::endl;
         return tracks;
     }
 
     std::string line;
+    int line_num = 0;
     while (std::getline(inFile, line)) {
-        std::stringstream ss(line);
-        std::string segment;
-        Track track;
+        line_num++;
+        try {
+            if (line.empty()) continue;
+            
+            Track track;
+            std::istringstream ss(line);
+            std::string field;
 
-        std::getline(ss, segment, '|');
-        track.track_name = segment;
-        std::getline(ss, segment, '|');
-        track.track_genre = segment;
-        std::getline(ss, segment, '|');
-        track.artist_name = segment;
-        std::getline(ss, segment, '|');
-        track.during_track_min = std::stoi(segment);
-        std::getline(ss, segment, '|');
-        track.during_track_sec = std::stoi(segment);
-        std::getline(ss, segment, '|');
-        track.age_limit_track = std::stoi(segment);
+            if (!std::getline(ss, field, '|')) throw std::runtime_error("Нет названия трека");
+            track.track_name = field;
 
-        tracks.push_back(track);
+            if (!std::getline(ss, field, '|')) throw std::runtime_error("Нет жанра");
+            track.track_genre = field;
+
+
+            tracks.push_back(track);
+        } catch (const std::exception& e) {
+            std::cerr << "Ошибка в строке " << line_num << ": " << e.what() 
+                     << "\nСтрока: " << line << std::endl;
+        }
     }
-    inFile.close();
-    std::cout << "Треки успешно загружены из " << filename << std::endl;
     return tracks;
 }
 
